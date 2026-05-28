@@ -1,0 +1,167 @@
+procedure,subtype,current_step,next_step,component,brand,cost,source
+Complete Denture,CD Special Tray,Start,Special Tray,No Component Required,Generic,0,DIAS
+Complete Denture,CD Occlusal Rims,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+Complete Denture,CD Occlusal Rims,Secondary Cast,Denture Base,No Component Required,Generic,0,DIAS
+Complete Denture,CD Occlusal Rims,Denture Base,Occlusal Rims,No Component Required,Generic,0,DIAS
+Complete Denture,BPS Teeth Setting,Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS
+Complete Denture,BPS Teeth Setting,Articulation,BPS Teeth Setting,Teeth set,Ivoclar,50,DIAS
+Complete Denture,CD Teeth Setting,Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS
+Complete Denture,CD Teeth Setting,Articulation,CD Teeth Setting,Teeth set,Acryrock,280,DIAS
+Complete Denture,CD Processing,CD Teeth Setting,Denture Processing,Acrylic Denture Base,Generic,60,DIAS
+Complete Denture,BPS CD Processing,BPS Teeth Setting,BPS Denture Processing,Acrylic Denture Base,Ivoclar,700,DIAS
+Complete Denture,CD Repair,Start,Relining Rebasing Repair,Acrylic Denture Base,Generic,60,DIAS
+Complete Denture,CD Teeth Correction,Start,Teeth Setting Correction,No Component Required,Generic,0,DIAS
+FPD,Full Metal Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FPD,Full Metal Crown,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS
+FPD,Full Metal Crown,FPD Wax Pattern,Crown Fabrication,All Metal Crown,Generic,400,DIAS
+FPD,Metal Ceramic,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FPD,Metal Ceramic,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS
+FPD,Metal Ceramic,FPD Wax Pattern,Metal Coping,Metal Ceramic Crown,Generic,1300,DIAS
+FPD,Metal Ceramic,Metal Coping,Bisque Trial,No Component Required,Generic,0,DIAS
+FPD,Metal with Ceramic Facing,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FPD,Metal with Ceramic Facing,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS
+FPD,Metal with Ceramic Facing,FPD Wax Pattern,Ceramic Facing,Metal Ceramic Crown,Generic,1300,DIAS
+FPD,Metal with Ceramic Facing,Ceramic Facing,Bisque Trial,No Component Required,Generic,0,DIAS
+FPD,Hand Layered Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FPD,Hand Layered Crown,Secondary Cast,Ceramic Coping,Hand Layered Crown,Chinese Zirconia,1300,DIAS
+FPD,Hand Layered Crown,Ceramic Coping,Bisque Trial,No Component Required,Generic,0,DIAS
+FPD,Monolithic Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FPD,Monolithic Crown,Secondary Cast,Crown Fabrication,Monolithic Crown,Chinese Zirconia,1000,DIAS
+FVC Single Crown,Metal with Ceramic Facing,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FVC Single Crown,Metal with Ceramic Facing,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
+FVC Single Crown,Metal with Ceramic Facing,FVC Wax Pattern,Ceramic Facing,Metal Ceramic Crown,Generic,1300,DIAS
+FVC Single Crown,Metal with Ceramic Facing,Ceramic Facing,Bisque Trial,No Component Required,Generic,0,DIAS
+FVC Single Crown,Monolithic Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FVC Single Crown,Monolithic Crown,Secondary Cast,Crown Fabrication,Monolithic Crown,Chinese Zirconia,1000,DIAS
+FVC Single Crown,Hand Layered Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FVC Single Crown,Hand Layered Crown,Secondary Cast,Ceramic Coping,Hand Layered Crown,Chinese Zirconia,1300,DIAS
+FVC Single Crown,Hand Layered Crown,Ceramic Coping,Bisque Trial,No Component Required,Generic,0,DIAS
+FVC Single Crown,Metal Endo Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FVC Single Crown,Metal Endo Crown,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
+FVC Single Crown,Metal Endo Crown,FVC Wax Pattern,Endo Crown Fabrication,Metal Endo Crown,Generic,800,DIAS
+FVC Single Crown,Ceramic Endo Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+FVC Single Crown,Ceramic Endo Crown,Secondary Cast,Endo Crown Fabrication,Ceramic Endo Crown,Chinese Zirconia,1000,DIAS
+FVC Single Crown,Emax,Start,Crown Fabrication,Monolithic Crown,German Zirconia,2000,DIAS
+Implant,Monolithic,Start,Crown Fabrication,Monolithic Crown,Chinese Zirconia,1000,DIAS
+Implant,Hand Layered Crown,Start,Ceramic Coping,Hand Layered Crown,Chinese Zirconia,1300,DIAS
+Implant,Hand Layered Crown,Ceramic Coping,Bisque Trial,No Component Required,Generic,0,DIAS
+Implant,Metal Ceramic,Start,FPD Wax Pattern,No Component Required,Generic,0,DIAS
+Implant,Metal Ceramic,FPD Wax Pattern,Metal Coping,Metal Ceramic Crown,Generic,1300,DIAS
+Implant,Metal Ceramic,Metal Coping,Bisque Trial,No Component Required,Generic,0,DIAS
+Implant,Metal with Ceramic Facing,Start,FPD Wax Pattern,No Component Required,Generic,0,DIAS
+Implant,Metal with Ceramic Facing,FPD Wax Pattern,Ceramic Facing,Metal Ceramic Crown,Generic,1300,DIAS
+Implant,Metal with Ceramic Facing,Ceramic Facing,Bisque Trial,No Component Required,Generic,0,DIAS
+Implant,Castable Abutment,Start,Implant Wax Pattern,No Component Required,Generic,0,DIAS
+Implant,Castable Abutment,Implant Wax Pattern,Metal Cast Custom Abutment,Metal Ceramic Crown,Generic,1300,DIAS
+Implant,Castable Abutment,Metal Cast Custom Abutment,Bisque Trial,No Component Required,Generic,0,DIAS
+Implant,Jig Trial,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+Implant,Jig Trial,Secondary Cast,Verification Jig,No Component Required,Generic,0,DIAS
+Cast Partial Denture,DMLS Co-Cr,Start,DMLS Printing,Metal Denture Base,Co-cr,1000,DIAS
+Cast Partial Denture,DMLS Titanium,Start,DMLS Printing,Metal Denture Base,Titanium,2500,DIAS
+Cast Partial Denture,Manual,Start,Cast Pouring,No Component Required,Generic,0,DIAS
+Cast Partial Denture,Manual,Cast Pouring,Block Out,No Component Required,Generic,0,DIAS
+Cast Partial Denture,Manual,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS
+Cast Partial Denture,Manual,CPD Wax Pattern,CPD Metal Denture Base,Metal Denture Base,Generic,1500,DIAS
+Cast Partial Denture,Manual,CPD Metal Denture Base,Articulation,No Component Required,Generic,0,DIAS
+Cast Partial Denture,Manual,Articulation,CPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
+Cast Partial Denture,Manual,CPD Teeth Setting,CPD Processing,Acrylic Denture Base,Generic,60,DIAS
+Flexible Denture,Biodentaplast,Start,Cast Pouring,No Component Required,Generic,0,DIAS
+Flexible Denture,Biodentaplast,Cast Pouring,Block Out,No Component Required,Generic,0,DIAS
+Flexible Denture,Biodentaplast,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS
+Flexible Denture,Biodentaplast,CPD Wax Pattern,Flexible Denture Base,Flexible Denture Base,Biodentaplast,800,DIAS
+Flexible Denture,Biodentaplast,Flexible Denture Base,Articulation,No Component Required,Generic,0,DIAS
+Flexible Denture,Biodentaplast,Articulation,CPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
+Flexible Denture,Biodentaplast,CPD Teeth Setting,Flexible Denture Processing,Flexible Denture Base,Bredent Polyan,800,DIAS
+Flexible Denture,Bredent Second Edition,Start,Cast Pouring,No Component Required,Generic,0,DIAS
+Flexible Denture,Bredent Second Edition,Cast Pouring,Block Out,No Component Required,Generic,0,DIAS
+Flexible Denture,Bredent Second Edition,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS
+Flexible Denture,Bredent Second Edition,CPD Wax Pattern,Flexible Denture Base,Flexible Denture Base,Bredent Second Edition,800,DIAS
+Flexible Denture,Bredent Second Edition,Flexible Denture Base,Articulation,No Component Required,Generic,0,DIAS
+Flexible Denture,Bredent Second Edition,Articulation,CPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
+Flexible Denture,Bredent Second Edition,CPD Teeth Setting,Flexible Denture Processing,Flexible Denture Base,Bredent Second Edition,800,DIAS
+Onlay,Metal Onlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+Onlay,Metal Onlay,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
+Onlay,Metal Onlay,FVC Wax Pattern,Metal Onlay Fabrication,Metal Onlay,Generic,800,DIAS
+Onlay,Ceramic Onlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+Onlay,Ceramic Onlay,Secondary Cast,Ceramic Onlay Fabrication,Ceramic Onlay,Chinese Zirconia,1000,DIAS
+Inlay,Metal Inlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+Inlay,Metal Inlay,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
+Inlay,Metal Inlay,FVC Wax Pattern,Metal Inlay Fabrication,Metal Inlay,Generic,500,DIAS
+Inlay,Ceramic Inlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
+Inlay,Ceramic Inlay,Secondary Cast,Ceramic Inlay Fabrication,Ceramic Inlay,Chinese Zirconia,1000,DIAS
+TPD,TPD Special Tray,Start,Special Tray,No Component Required,Generic,0,DIAS
+TPD,TPD Occlusal Rims,Special Tray,Denture Base,No Component Required,Generic,0,DIAS
+TPD,TPD Occlusal Rims,Denture Base,Occlusal Rims,No Component Required,Generic,0,DIAS
+TPD,TPD Teeth Setting,Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS
+TPD,TPD Teeth Setting,Articulation,TPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
+TPD,TPD Processing,TPD Teeth Setting,TPD Denture Processing,Acrylic Denture Base,Generic,60,DIAS
+Milling,Zirconia Coping,Start,Zirconia Milling,Hand Layered Crown,Chinese Zirconia,1300,DIAS
+Milling,Zirconia Monolithic Crown,Start,Zirconia Milling,Monolithic Crown,Chinese Zirconia,1000,DIAS
+Milling,PMMA-ML,Start,PMMA Milling,ML Acrylic Temporary Crown,PMMA-ML,500,DIAS
+Milling,PMMA-M,Start,PMMA Milling,Monolayer Acrylic Temp Crown,PMMA-M,50,DIAS
+Milling,Metal Milling,Start,Metal Milling,Metal Ceramic Crown,Metal,1300,DIAS
+Milling,Wax Milling,Start,Wax Milling,No Component Required,Generic,0,DIAS
+Out Sourcing,Gingival Porcelain,Start,Crown Fabrication,E Max Gingival Porcelain,Out Source,225,DIAS
+Out Sourcing,All Ceramic Crown,Start,Crown Fabrication,E Max Crown,E Max Crown OS,3600,DIAS
+Out Sourcing,Veneer,Start,E Max Veneer Fabrication,E Max Veneer,E Max Veneer OS,3600,DIAS
+Maryland Bridge,Maryland Bridge,Start,Maryland Bridge Retainer,Maryland Retainer,Metal,200,DIAS
+Maryland Bridge,Maryland Bridge,Maryland Bridge Retainer,Maryland Pontic,Maryland Pontic,Metal Ceramic,1300,DIAS
+Cast Post,Cast Post,Start,Post and Core Fabrication,Metal Post and Core,Generic,500,DIAS
+Space Maintainer,Space Maintainer,Start,Oral Appliance Fabrication,Space Maintainer,Generic,175,DIAS
+Splint,Hard Splint,Start,Hard Splint Fabrication,Hard Splint,Generic,175,DIAS
+Splint,Soft Splint,Start,Soft Splint Fabrication,Soft Splint,Generic,175,DIAS
+Welding Soldering,Welding Soldering,Start,Welding Soldering,No Component Required,Generic,0,DIAS
+Telescopic Coping,Primary Coping,Start,Primary Coping Fabrication,All Metal Crown,Generic,400,DIAS
+Telescopic Coping,Secondary Coping,Primary Coping Fabrication,Secondary Coping Fabrication,All Metal Crown,Generic,400,DIAS
+Removable Appliance,Hawleys Appliance,Start,Oral Appliance Fabrication,Hawleys Appliance,Generic,175,DIAS
+Removable Appliance,Lip Bumper,Start,Oral Appliance Fabrication,Lip Bumper,Generic,175,DIAS
+Removable Appliance,Inclined Plane,Start,Oral Appliance Fabrication,Inclined Plane,Generic,175,DIAS
+Removable Appliance,Band and Loop,Start,Oral Appliance Fabrication,Band and Loop,Generic,175,DIAS
+Removable Appliance,Beggs Retainer,Start,Oral Appliance Fabrication,Beggs Retainer,Generic,175,DIAS
+Removable Appliance,Bite Plane,Start,Oral Appliance Fabrication,Bite Plane,Generic,175,DIAS
+Removable Appliance,Nance Palatal,Start,Oral Appliance Fabrication,Nance Palatal,Generic,200,DIAS
+Removable Appliance,Lingual Arch,Start,Oral Appliance Fabrication,Lingual Arch,Generic,200,DIAS
+Removable Appliance,Distal Shoe,Start,Oral Appliance Fabrication,Distal Shoe,Generic,250,DIAS
+Removable Appliance,Transpalatal,Start,Oral Appliance Fabrication,Transpalatal,Generic,200,DIAS
+Removable Appliance,Habit Braking,Start,Oral Appliance Fabrication,Habit Braking,Generic,250,DIAS
+Mock Up,Mock Up Manual,Start,Diagnostic Wax Up Manual,Mock Up,Generic,50,DIAS
+Mock Up,Mock Up CADCAM,Start,Diagnostic Wax Up CADCAM,Mock Up,Generic,50,DIAS
+Temporary Crown,Temporary Acrylic Crown,Start,Temporary Crown Fabrication,Temporary Crown,Generic,50,DIAS
+PMMA Design Milling,PMMA CADCAM ML,Start,PMMA CADCAM Milling,ML Acrylic Temporary Crown,PMMA-ML,500,DIAS
+PMMA Design Milling,PMMA CADCAM M,Start,PMMA CADCAM Milling,Moonolayer Acrylic Temp Crown,PMMA-M,50,DIAS
+Malo Framework,Malo Framework,Start,DMLS Printing,Malo Framework,Titanium,5000,DIAS
+Complete Denture,Complete Denture - AFPAM Ref 6,Molar (Centric Occlusion),Premolar (Centric Occlusion),Refer AFPAM,Generic,0,AFPAM_vol1
+Cast Partial Denture,Cast Partial Denture - AFPAM Ref 10,Line Detail Showing The Toothborne Area,Line Detail Showing Distal Extension Area,Refer AFPAM,Generic,0,AFPAM_vol1
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 4,"Quenched In Water, The M Etal Is In Its Softest State (Annealing)",And Wrought Wire Prosthetic A Ppliances,Refer AFPAM,Generic,0,AFPAM_vol1
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,"Clamp, And Tilt Top Lock Screw",After The Path Of Insertion Has Been Chosen (Figure 8,Refer AFPAM,Generic,0,AFPAM_vol1
+Implant,Implant - AFPAM Ref 1,An Aromatic Oil Derived From Clove Oil To Relieve Pulpal Pain,A Principal Ingredient In Zinc Oxide Eugenol Impression Pastes,Refer AFPAM,Generic,0,AFPAM_vol1
+Complete Denture,Complete Denture - AFPAM Ref 3,The Process Of Forming A Casting In A Mold,T Ooth From The M Idline,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 3,T Ooth From The M Idline,When Surveying,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 3,When Surveying,Of Forming A Casting In A Mold,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 4,Of Making A Substance More Compact,Of The Mandible,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 7,The Hollow Form Or Matrix In Which An Object Is Cast Or Shaped,The Shape Of An Artificial Tooth,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 7,The Shape Of An Artificial Tooth,The Laboratory Procedure Of Attaching A Cast To An Articulator,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 7,The Laboratory Procedure Of Attaching A Cast To An Articulator,To An Articulator,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 8,To Smooth And Finish The Wax On A Complete Denture,To Flow And Carve A Wax Pattern For A Fixed Restoration,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 8,To Flow And Carve A Wax Pattern For A Fixed Restoration,To Contour The Wax For Any Dental Prosthesis,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 8,To Contour The Wax For Any Dental Prosthesis,Wax On A Complete Denture,Refer AFPAM,Generic,0,AFPAM_vol2
+Complete Denture,Complete Denture - AFPAM Ref 10,Open The Unit For Any Repairs,Impressions And Perform Various Investing Procedures,Refer AFPAM,Generic,0,AFPAM_vol2
+Cast Partial Denture,Cast Partial Denture - AFPAM Ref 9,Full Gold Units Or Rpd Frameworks,Them By Centrifugal Force Into A Heated Mold,Refer AFPAM,Generic,0,AFPAM_vol2
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 9,The Process Of Forming A Casting In A Mold,When Surveying,Refer AFPAM,Generic,0,AFPAM_vol2
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 9,When Surveying,Of Forming A Casting In A Mold,Refer AFPAM,Generic,0,AFPAM_vol2
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,The Process Of Forming A Casting In A Mold,When Surveying,Refer AFPAM,Generic,0,AFPAM_vol2
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,When Surveying,Of Forming A Casting In A Mold,Refer AFPAM,Generic,0,AFPAM_vol2
+Crown,Crown - AFPAM Ref 3,Apply A Very Thin Surface Hardener Over The Marked Margins,Carefully Shave Away The Carbon,Refer AFPAM,Generic,0,AFPAM_vol2
+Crown,Crown - AFPAM Ref 5,Casting As You Would An In Lay,Casting With Mounted Stones Or Sandpaper Discs,Refer AFPAM,Generic,0,AFPAM_vol2
+Crown,Crown - AFPAM Ref 5,Casting With Mounted Stones Or Sandpaper Discs,With A Rubber Wheel,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 1,An Aromatic Oil Derived From Clove Oil To Relieve Pulpal Pain,A Principal Ingredient In Zinc Oxide Eugenol Impression Pastes,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 3,Be Fabricated With The Abutm Ent Replicas In Place,When Fabricating The Master Cast (Paragraph 6,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 3,When Fabricating The Master Cast (Paragraph 6,"Metal, Not The Gold Cylinder",Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 7,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 7,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 8,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 8,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 9,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 9,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 10,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
+Implant,Implant - AFPAM Ref 10,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2

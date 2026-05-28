@@ -1,0 +1,12 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 0.29411764705882354,
+  "total_training_rows": 132,
+  "total_test_rows": 34,
+  "total_classes": 79,
+  "all_model_accuracies": {
+    "Random Forest": 0.29411764705882354,
+    "SVM": 0.2647058823529412,
+    "Logistic Regression": 0.29411764705882354
+  }
+}
