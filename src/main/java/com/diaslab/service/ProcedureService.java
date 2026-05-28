@@ -5,6 +5,7 @@ import com.diaslab.model.StepResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.core.ParameterizedTypeReference;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
@@ -29,6 +30,8 @@ public class ProcedureService {
     // ── Predict next single step ──────────────────────────────────────────────
     public StepResponse getNextStep(StepRequest request) {
         String url = flaskApiUrl + "/api/next-step";
+        log.debug("Calling Flask → {} with procedure={}, subtype={}, currentStep={}",
+                url, request.getProcedure(), request.getSubtype(), request.getCurrentStep());
 
         Map<String, String> body = new HashMap<>();
         body.put("procedure", request.getProcedure());
@@ -42,7 +45,8 @@ public class ProcedureService {
         try {
             ResponseEntity<Map<String, Object>> response = restTemplate.exchange(
                     url, HttpMethod.POST, entity,
-                    getMapType());
+                    new ParameterizedTypeReference<Map<String, Object>>() {
+                    });
 
             Map<String, Object> responseBody = response.getBody();
             if (responseBody == null)
@@ -75,6 +79,7 @@ public class ProcedureService {
     // ── Predict full workflow from start ──────────────────────────────────────
     public Map<String, Object> getFullWorkflow(String procedure, String subtype) {
         String url = flaskApiUrl + "/api/predict-full";
+        log.debug("Calling Flask full workflow → procedure={}, subtype={}", procedure, subtype);
 
         Map<String, String> body = new HashMap<>();
         body.put("procedure", procedure);
@@ -87,7 +92,8 @@ public class ProcedureService {
         try {
             ResponseEntity<Map<String, Object>> response = restTemplate.exchange(
                     url, HttpMethod.POST, entity,
-                    getMapType());
+                    new ParameterizedTypeReference<Map<String, Object>>() {
+                    });
             return response.getBody();
         } catch (Exception e) {
             log.error("Flask full workflow call failed: {}", e.getMessage());
@@ -102,9 +108,12 @@ public class ProcedureService {
     public Map<String, Object> getModelInfo() {
         String url = flaskApiUrl + "/api/model-info";
         try {
-            @SuppressWarnings("unchecked")
-            Map<String, Object> result = restTemplate.getForObject(url, HashMap.class);
-            return result;
+            ResponseEntity<Map<String, Object>> response = restTemplate.exchange(
+                    url, HttpMethod.GET,
+                    null,
+                    new ParameterizedTypeReference<Map<String, Object>>() {
+                    });
+            return response.getBody();
         } catch (Exception e) {
             log.error("Flask model-info call failed: {}", e.getMessage());
             Map<String, Object> error = new HashMap<>();
@@ -112,12 +121,5 @@ public class ProcedureService {
             error.put("success", false);
             return error;
         }
-    }
-
-    // ── Helper to avoid raw Map type warnings ─────────────────────────────────
-    @SuppressWarnings("unchecked")
-    private org.springframework.core.ParameterizedTypeReference<Map<String, Object>> getMapType() {
-        return new org.springframework.core.ParameterizedTypeReference<Map<String, Object>>() {
-        };
     }
 }
