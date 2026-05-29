@@ -172,4 +172,6 @@ def model_info():
 
 if __name__ == "__main__":
     print("\nStarting Dental Lab ML API...")
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    # Bind to 127.0.0.1 only — Spring Boot is the public-facing service on 0.0.0.0.
+    # This prevents Render from detecting Flask's port as the primary port.
+    app.run(host="127.0.0.1", port=5000, debug=False)
