@@ -1048,91 +1048,213 @@ Implant,General,Articulation,Investing
 Complete Denture,General,Impression,Repair or Reline
 Complete Denture,General,Repair or Reline,Denture Base
 Complete Denture,General,Delivery,Adjustment
-SPACE MAINTAINER,SPACE MAINTAINER,Oral Appliance – Gropers,Oral Appliance – Space Maintainer,Gropers,Generic,550 per arch,DIAS_JSON
-IMPLANT,JIG TRIAL,Secondary Cast,Verification Jig,No Component Required,Generic,0,DIAS_JSON
-IMPLANT,HAND LAYERED CROWN,Ceramic Coping,Bisque Trial,Hand Layered Crown,Chinese Zirconia,1300 per unit,DIAS_JSON
-IMPLANT,METAL CERAMIC,FPD Wax Pattern,Metal Coping,No Component Required,Generic,0,DIAS_JSON
-IMPLANT,METAL CERAMIC,Metal Coping,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
-IMPLANT,METAL WITH CERAMIC FACING,FPD Wax Pattern,Ceramic Facing,No Component Required,Generic,0,DIAS_JSON
-IMPLANT,METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
-IMPLANT,IMPLANT CASTABLE ABUTMENT,Implant Wax Pattern,Metal Cast Custom Abutment,No Component Required,Generic,0,DIAS_JSON
-IMPLANT,IMPLANT CASTABLE ABUTMENT,Metal Cast Custom Abutment,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
-MARYLAND BRIDGE,MARYLAND BRIDGE,Maryland Bridge – Retainer,Maryland Bridge – Pontic,Maryland Retainer,Metal,200 per abutment,DIAS_JSON
-MARYLAND BRIDGE,MARYLAND BRIDGE,Maryland Bridge – Pontic,Bisque Trial (Layering),Maryland Pontic,Metal Ceramic,1300 per pontic,DIAS_JSON
-TELESCOPIC COPING,PRIMARY & SECONDARY COPING,Primary Coping,Secondary Coping,All Metal Crown,Generic,400,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Co-cr,Cast Pouring (Secondary Cast),CPD Designing,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Co-cr,CPD Designing,DMLS Printing,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Co-cr,DMLS Printing,Articulation,Metal Denture Base,Co-cr,1000 per arch,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Co-cr,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Co-cr,CPD Teeth Setting,CPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Titanium,Cast Pouring (Secondary Cast),CPD Designing,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Titanium,CPD Designing,DMLS Printing,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Titanium,DMLS Printing,Articulation,Metal Denture Base,Titanium,2500 per arch,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Titanium,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,DMLS – Titanium,CPD Teeth Setting,CPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
-CAST PARTIAL DENTURE,MANUAL,Cast Pouring (Secondary Cast),Block Out,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,MANUAL,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,MANUAL,CPD Wax Pattern,CPD Metal Denture Base (RPD Framework),No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,MANUAL,CPD Metal Denture Base (RPD Framework),Articulation,Metal Denture Base,Generic,1500 per arch,DIAS_JSON
-CAST PARTIAL DENTURE,MANUAL,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-CAST PARTIAL DENTURE,MANUAL,CPD Teeth Setting,CPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Cast Pouring (Secondary Cast),Block Out,No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Block Out,Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Wax Pattern,Flexible Denture Base (RPD Framework),No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Flexible Denture Base (RPD Framework),Articulation,Flexible Denture Base,Biodentaplast,800,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,CPD Teeth Setting,Flexible Denture Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Cast Pouring (Secondary Cast),Block Out,No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Block Out,Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Wax Pattern,Flexible Denture Base (RPD Framework),No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Flexible Denture Base (RPD Framework),Articulation,Flexible Denture Base,Biodentaplast,800,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,CPD Teeth Setting,Flexible Denture Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
-FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,FVC Wax Pattern,Ceramic Facing,No Component Required,Generic,0,DIAS_JSON
-FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
-FVC (SINGLE CROWN),MONOLITHIC CROWN,Secondary Cast,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
-FVC (SINGLE CROWN),HAND LAYERED CROWN,Secondary Cast,Ceramic Coping,No Component Required,Generic,0,DIAS_JSON
-FVC (SINGLE CROWN),HAND LAYERED CROWN,Ceramic Coping,Bisque Trial,Hand Layered Crown,Chinese Zirconia,1300 per unit,DIAS_JSON
-FVC (SINGLE CROWN),METAL ENDO CROWN,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FVC (SINGLE CROWN),METAL ENDO CROWN,FVC Wax Pattern,Endo Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
-FVC (SINGLE CROWN),CERAMIC ENDO CROWN,Secondary Cast,Endo Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),MONOLITHIC CROWN,Secondary Cast,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),HAND LAYERED CROWN,Secondary Cast,Ceramic Coping,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),HAND LAYERED CROWN,Ceramic Coping,Bisque Trial,Hand Layered Crown,Chinese Zirconia,1300 per unit,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),FULL METAL CROWN,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),FULL METAL CROWN,FPD Wax Pattern,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,FPD Wax Pattern,Metal Coping,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,Metal Coping,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,FPD Wax Pattern,Ceramic Facing,No Component Required,Generic,0,DIAS_JSON
-FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
-CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Special Tray,CD Occlusal Rims – Secondary Cast,Special Tray,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Secondary Cast,CD Occlusal Rims – Denture Base,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Denture Base,CD Occlusal Rims – Occlusal Rims,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,Articulation,CD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Teeth Setting,CD Processing,Teeth Set,Acryrock,280,DIAS_JSON
-CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Special Tray,CD Occlusal Rims – Secondary Cast,Special Tray,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Secondary Cast,CD Occlusal Rims – Denture Base,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Denture Base,CD Occlusal Rims – Occlusal Rims,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),Articulation,BPS Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),BPS Teeth Setting,BPS CD Processing,Teeth Set,Ivoclar,50 per teeth,DIAS_JSON
-TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Special Tray (Distal Extension cases),TPD Denture Base,Special Tray,Generic,0,DIAS_JSON
-TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Denture Base,TPD Occlusal Rims,Denture Base,Generic,0,DIAS_JSON
-TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Occlusal Rims,Articulation,Occlusal Rims,Generic,0,DIAS_JSON
-TPD (TRANSITIONAL PARTIAL DENTURE),TPD,Articulation,TPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
-TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Teeth Setting,TPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
-ONLAY,METAL ONLAY,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-ONLAY,METAL ONLAY,FVC Wax Pattern,Onlay Fabrication,No Component Required,Generic,0,DIAS_JSON
-ONLAY,CERAMIC ONLAY,Secondary Cast,Onlay Fabrication,No Component Required,Generic,0,DIAS_JSON
-INLAY,METAL INLAY,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-INLAY,METAL INLAY,FVC Wax Pattern,Inlay Fabrication,No Component Required,Generic,0,DIAS_JSON
-INLAY,CERAMIC INLAY,Secondary Cast,Inlay Fabrication,No Component Required,Generic,0,DIAS_JSON
-FVC (UG / PG FORMAT),FULL METAL CROWN,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FVC (UG / PG FORMAT),FULL METAL CROWN,FVC Wax Pattern,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
-FVC (UG / PG FORMAT),METAL CERAMIC,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
-FVC (UG / PG FORMAT),METAL CERAMIC,FVC Wax Pattern,Metal Coping,No Component Required,Generic,0,DIAS_JSON
-FVC (UG / PG FORMAT),METAL CERAMIC,Metal Coping,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+SPACE MAINTAINER,SPACE MAINTAINER,Oral Appliance – Gropers,Oral Appliance – Space Maintainer
+IMPLANT,JIG TRIAL,Secondary Cast,Verification Jig
+IMPLANT,HAND LAYERED CROWN,Ceramic Coping,Bisque Trial
+IMPLANT,METAL CERAMIC,FPD Wax Pattern,Metal Coping
+IMPLANT,METAL CERAMIC,Metal Coping,Bisque Trial
+IMPLANT,METAL WITH CERAMIC FACING,FPD Wax Pattern,Ceramic Facing
+IMPLANT,METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial
+IMPLANT,IMPLANT CASTABLE ABUTMENT,Implant Wax Pattern,Metal Cast Custom Abutment
+IMPLANT,IMPLANT CASTABLE ABUTMENT,Metal Cast Custom Abutment,Bisque Trial
+MARYLAND BRIDGE,MARYLAND BRIDGE,Maryland Bridge – Retainer,Maryland Bridge – Pontic
+MARYLAND BRIDGE,MARYLAND BRIDGE,Maryland Bridge – Pontic,Bisque Trial (Layering)
+TELESCOPIC COPING,PRIMARY & SECONDARY COPING,Primary Coping,Secondary Coping
+CAST PARTIAL DENTURE,DMLS – Co-cr,Cast Pouring (Secondary Cast),CPD Designing
+CAST PARTIAL DENTURE,DMLS – Co-cr,CPD Designing,DMLS Printing
+CAST PARTIAL DENTURE,DMLS – Co-cr,DMLS Printing,Articulation
+CAST PARTIAL DENTURE,DMLS – Co-cr,Articulation,CPD Teeth Setting
+CAST PARTIAL DENTURE,DMLS – Co-cr,CPD Teeth Setting,CPD Processing
+CAST PARTIAL DENTURE,DMLS – Titanium,Cast Pouring (Secondary Cast),CPD Designing
+CAST PARTIAL DENTURE,DMLS – Titanium,CPD Designing,DMLS Printing
+CAST PARTIAL DENTURE,DMLS – Titanium,DMLS Printing,Articulation
+CAST PARTIAL DENTURE,DMLS – Titanium,Articulation,CPD Teeth Setting
+CAST PARTIAL DENTURE,DMLS – Titanium,CPD Teeth Setting,CPD Processing
+CAST PARTIAL DENTURE,MANUAL,Cast Pouring (Secondary Cast),Block Out
+CAST PARTIAL DENTURE,MANUAL,Block Out,CPD Wax Pattern
+CAST PARTIAL DENTURE,MANUAL,CPD Wax Pattern,CPD Metal Denture Base (RPD Framework)
+CAST PARTIAL DENTURE,MANUAL,CPD Metal Denture Base (RPD Framework),Articulation
+CAST PARTIAL DENTURE,MANUAL,Articulation,CPD Teeth Setting
+CAST PARTIAL DENTURE,MANUAL,CPD Teeth Setting,CPD Processing
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Cast Pouring (Secondary Cast),Block Out
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Block Out,Wax Pattern
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Wax Pattern,Flexible Denture Base (RPD Framework)
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Flexible Denture Base (RPD Framework),Articulation
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Articulation,CPD Teeth Setting
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,CPD Teeth Setting,Flexible Denture Processing
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Cast Pouring (Secondary Cast),Block Out
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Block Out,Wax Pattern
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Wax Pattern,Flexible Denture Base (RPD Framework)
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Flexible Denture Base (RPD Framework),Articulation
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Articulation,CPD Teeth Setting
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,CPD Teeth Setting,Flexible Denture Processing
+FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,Secondary Cast,FVC Wax Pattern
+FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,FVC Wax Pattern,Ceramic Facing
+FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial
+FVC (SINGLE CROWN),MONOLITHIC CROWN,Secondary Cast,Crown Fabrication
+FVC (SINGLE CROWN),HAND LAYERED CROWN,Secondary Cast,Ceramic Coping
+FVC (SINGLE CROWN),HAND LAYERED CROWN,Ceramic Coping,Bisque Trial
+FVC (SINGLE CROWN),METAL ENDO CROWN,Secondary Cast,FVC Wax Pattern
+FVC (SINGLE CROWN),METAL ENDO CROWN,FVC Wax Pattern,Endo Crown Fabrication
+FVC (SINGLE CROWN),CERAMIC ENDO CROWN,Secondary Cast,Endo Crown Fabrication
+FPD (FIXED PARTIAL DENTURE),MONOLITHIC CROWN,Secondary Cast,Crown Fabrication
+FPD (FIXED PARTIAL DENTURE),HAND LAYERED CROWN,Secondary Cast,Ceramic Coping
+FPD (FIXED PARTIAL DENTURE),HAND LAYERED CROWN,Ceramic Coping,Bisque Trial
+FPD (FIXED PARTIAL DENTURE),FULL METAL CROWN,Secondary Cast,FPD Wax Pattern
+FPD (FIXED PARTIAL DENTURE),FULL METAL CROWN,FPD Wax Pattern,Crown Fabrication
+FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,Secondary Cast,FPD Wax Pattern
+FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,FPD Wax Pattern,Metal Coping
+FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,Metal Coping,Bisque Trial
+FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,Secondary Cast,FPD Wax Pattern
+FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,FPD Wax Pattern,Ceramic Facing
+FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Special Tray,CD Occlusal Rims – Secondary Cast
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Secondary Cast,CD Occlusal Rims – Denture Base
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Denture Base,CD Occlusal Rims – Occlusal Rims
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Occlusal Rims,Articulation
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,Articulation,CD Teeth Setting
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Teeth Setting,CD Processing
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Special Tray,CD Occlusal Rims – Secondary Cast
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Secondary Cast,CD Occlusal Rims – Denture Base
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Denture Base,CD Occlusal Rims – Occlusal Rims
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Occlusal Rims,Articulation
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),Articulation,BPS Teeth Setting
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),BPS Teeth Setting,BPS CD Processing
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Special Tray (Distal Extension cases),TPD Denture Base
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Denture Base,TPD Occlusal Rims
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Occlusal Rims,Articulation
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,Articulation,TPD Teeth Setting
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Teeth Setting,TPD Processing
+ONLAY,METAL ONLAY,Secondary Cast,FVC Wax Pattern
+ONLAY,METAL ONLAY,FVC Wax Pattern,Onlay Fabrication
+ONLAY,CERAMIC ONLAY,Secondary Cast,Onlay Fabrication
+INLAY,METAL INLAY,Secondary Cast,FVC Wax Pattern
+INLAY,METAL INLAY,FVC Wax Pattern,Inlay Fabrication
+INLAY,CERAMIC INLAY,Secondary Cast,Inlay Fabrication
+FVC (UG / PG FORMAT),FULL METAL CROWN,Secondary Cast,FVC Wax Pattern
+FVC (UG / PG FORMAT),FULL METAL CROWN,FVC Wax Pattern,Crown Fabrication
+FVC (UG / PG FORMAT),METAL CERAMIC,Secondary Cast,FVC Wax Pattern
+FVC (UG / PG FORMAT),METAL CERAMIC,FVC Wax Pattern,Metal Coping
+FVC (UG / PG FORMAT),METAL CERAMIC,Metal Coping,Bisque Trial
+Implant,Jig Trial,Start,Secondary Cast
+Implant,Jig Trial,Secondary Cast,Verification Jig
+Implant,Monolithic,Start,Crown Fabrication
+Implant,Monolithic,Crown Fabrication,Monolithic Crown
+Implant,Hand Layered Crown,Start,Ceramic Coping
+Implant,Hand Layered Crown,Ceramic Coping,Hand Layered Crown
+Implant,Hand Layered Crown,Hand Layered Crown,Bisque Trial
+Implant,Metal Ceramic,Start,FPD Wax Pattern
+Implant,Metal Ceramic,FPD Wax Pattern,Metal Coping
+Implant,Metal Ceramic,Metal Coping,Bisque Trial
+Implant,Metal With Ceramic Facing,Start,FPD Wax Pattern
+Implant,Metal With Ceramic Facing,FPD Wax Pattern,Ceramic Facing
+Implant,Metal With Ceramic Facing,Ceramic Facing,Bisque Trial
+Implant,Implant Castable Abutment,Start,Implant Wax Pattern
+Implant,Implant Castable Abutment,Implant Wax Pattern,Metal Cast Custom Abutment
+Implant,Implant Castable Abutment,Metal Cast Custom Abutment,Bisque Trial
+Out Sourcing,Gingival Porcelain,Start,Crown Fabrication
+Out Sourcing,All Ceramic Crown,Start,Crown Fabrication
+Out Sourcing,Veneer,Start,E Max Veneer OS
+Maryland Bridge,FPD Wax Pattern,Start,FPD Wax Pattern
+Maryland Bridge,Maryland Bridge,Start,Maryland Bridge
+Maryland Bridge,Maryland Bridge,Maryland Bridge,Maryland Pontic
+Maryland Bridge,Layering,Maryland Pontic,Bisque Trial
+Welding Soldering,Welding Soldering,Start,Welding Soldering
+Telescopic Coping,Primary And Secondary Coping,Start,Primary Coping
+Telescopic Coping,Primary And Secondary Coping,Primary Coping,Secondary Coping
+Space Maintainer,Space Maintainer,Start,Oral Appliance
+Splint,Hard Splint,Start,Hard Splint
+Splint,Soft Splint,Start,Soft Splint
+PSI Finishing,PSI Finishing And Polishing,Start,PSI Finishing And Polishing
+Cast Partial Denture,DMLS,Start,DMLS Printing
+Cast Partial Denture,DMLS,DMLS Printing,Metal Denture Base
+Cast Partial Denture,Manual,Start,Secondary Cast
+Cast Partial Denture,Manual,Secondary Cast,Block Out
+Cast Partial Denture,Manual,Block Out,CPD Wax Pattern
+Cast Partial Denture,Manual,CPD Wax Pattern,CPD Metal Denture Base
+Cast Partial Denture,Manual,CPD Metal Denture Base,Articulation
+Cast Partial Denture,Manual,Articulation,CPD Teeth Setting
+Cast Partial Denture,Manual,CPD Teeth Setting,CPD Processing
+Flexible Denture,Flexible Denture,Start,Secondary Cast
+Flexible Denture,Flexible Denture,Secondary Cast,Block Out
+Flexible Denture,Flexible Denture,Block Out,Wax Pattern
+Flexible Denture,Flexible Denture,Wax Pattern,Flexible Denture Base
+Flexible Denture,Flexible Denture,Flexible Denture Base,Articulation
+Flexible Denture,Flexible Denture,Articulation,CPD Teeth Setting
+Flexible Denture,Flexible Denture,CPD Teeth Setting,Flexible Denture Processing
+Malo Framework,Malo Framework,Start,DMLS Printing
+Malo Framework,Malo Framework,DMLS Printing,Malo Framework
+Mock Up,Mock Up Manual,Start,Diagnostic Wax Up Manual
+Mock Up,Mock Up CADCAM,Start,Diagnostic Wax Up CADCAM
+PMMA,PMMA CADCAM,Start,PMMA CADCAM
+PMMA,PMMA CADCAM,PMMA CADCAM,ML Acrylic Temporary Crown
+Temporary Acrylic Crown,Temporary Acrylic Crown,Start,Temporary Acrylic Crown
+Removable Appliance,Hawleys Appliance,Start,Oral Appliance
+Removable Appliance,Lip Bumper,Start,Oral Appliance
+Removable Appliance,Inclined Plane,Start,Oral Appliance
+Removable Appliance,Band And Loop,Start,Oral Appliance
+Removable Appliance,Beggs Retainer,Start,Oral Appliance
+Removable Appliance,Bite Plane,Start,Oral Appliance
+Removable Appliance,Nance Palatal,Start,Oral Appliance
+Removable Appliance,Lingual Arch,Start,Oral Appliance
+Removable Appliance,Distal Shoe,Start,Oral Appliance
+Removable Appliance,Transpalatal,Start,Oral Appliance
+Removable Appliance,Habit Braking,Start,Oral Appliance
+FVC Single Crown,Metal With Ceramic Facing,Start,Secondary Cast
+FVC Single Crown,Metal With Ceramic Facing,Secondary Cast,FVC Wax Pattern
+FVC Single Crown,Metal With Ceramic Facing,FVC Wax Pattern,Ceramic Facing
+FVC Single Crown,Metal With Ceramic Facing,Ceramic Facing,Bisque Trial
+FVC Single Crown,Monolithic Crown,Start,Secondary Cast
+FVC Single Crown,Monolithic Crown,Secondary Cast,Crown Fabrication
+FVC Single Crown,Hand Layered Crown,Start,Secondary Cast
+FVC Single Crown,Hand Layered Crown,Secondary Cast,Ceramic Coping
+FVC Single Crown,Hand Layered Crown,Ceramic Coping,Bisque Trial
+FVC Single Crown,Metal Endo Crown,Start,Secondary Cast
+FVC Single Crown,Metal Endo Crown,Secondary Cast,FVC Wax Pattern
+FVC Single Crown,Metal Endo Crown,FVC Wax Pattern,Endo Crown
+FVC Single Crown,Ceramic Endo Crown,Start,Secondary Cast
+FVC Single Crown,Ceramic Endo Crown,Secondary Cast,Endo Crown
+FVC Single Crown,Emax,Start,Crown Fabrication
+FPD,Full Metal Crown,Start,Secondary Cast
+FPD,Full Metal Crown,Secondary Cast,FPD Wax Pattern
+FPD,Full Metal Crown,FPD Wax Pattern,Crown Fabrication
+FPD,Metal Ceramic,Start,Secondary Cast
+FPD,Metal Ceramic,Secondary Cast,FPD Wax Pattern
+FPD,Metal Ceramic,FPD Wax Pattern,Metal Coping
+FPD,Metal Ceramic,Metal Coping,Bisque Trial
+FPD,Metal With Ceramic Facing,Start,Secondary Cast
+FPD,Metal With Ceramic Facing,Secondary Cast,FPD Wax Pattern
+FPD,Metal With Ceramic Facing,FPD Wax Pattern,Ceramic Facing
+FPD,Metal With Ceramic Facing,Ceramic Facing,Bisque Trial
+FPD,Zirconia Coping,Start,Zirconia Milling
+FPD,Zirconia Monolithic Crown,Start,Zirconia Milling
+FPD,DMLS Hybrid Bar,Start,DMLS Printing
+Complete Denture,CD Special Tray,Start,Special Tray
+Complete Denture,CD Occlusal Rims,Start,Secondary Cast
+Complete Denture,CD Occlusal Rims,Secondary Cast,Denture Base
+Complete Denture,CD Occlusal Rims,Denture Base,Occlusal Rims
+Complete Denture,BPS Teeth Setting,Occlusal Rims,Articulation
+Complete Denture,BPS Teeth Setting,Articulation,BPS Teeth Setting
+Complete Denture,CD Teeth Setting,Occlusal Rims,Articulation
+Complete Denture,CD Teeth Setting,Articulation,CD Teeth Setting
+Complete Denture,CD Processing,CD Teeth Setting,CD Processing
+Complete Denture,BPS CD Processing,BPS Teeth Setting,BPS CD Processing
+Complete Denture,CD Repair Relining Rebasing,Start,Relining Rebasing Repair
+Complete Denture,CD Teeth Correction,Start,Teeth Setting Correction
+TPD,TPD Special Tray,Start,Special Tray
+TPD,TPD Denture Base,Special Tray,Denture Base
+TPD,TPD Occlusal Rims,Denture Base,Occlusal Rims
+TPD,TPD Teeth Setting,Occlusal Rims,Articulation
+TPD,TPD Teeth Setting,Articulation,TPD Teeth Setting
+TPD,TPD Processing,TPD Teeth Setting,TPD Denture Processing
+Onlay,Metal Onlay,Start,Secondary Cast
+Onlay,Metal Onlay,Secondary Cast,FVC Wax Pattern
+Onlay,Metal Onlay,FVC Wax Pattern,Metal Onlay
+Onlay,Ceramic Onlay,Start,Secondary Cast
+Onlay,Ceramic Onlay,Secondary Cast,Ceramic Onlay
+Inlay,Metal Inlay,Start,Secondary Cast
+Inlay,Metal Inlay,Secondary Cast,FVC Wax Pattern
+Inlay,Metal Inlay,FVC Wax Pattern,Metal Inlay
+Inlay,Ceramic Inlay,Start,Secondary Cast
+Inlay,Ceramic Inlay,Secondary Cast,Ceramic Inlay
+Cast Post,Cast Post,Start,Post And Core
