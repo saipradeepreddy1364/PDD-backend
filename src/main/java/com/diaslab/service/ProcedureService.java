@@ -122,4 +122,23 @@ public class ProcedureService {
             return error;
         }
     }
+
+    // ── Get procedures list ───────────────────────────────────────────────────
+    public Map<String, Object> getProcedures() {
+        String url = flaskApiUrl + "/api/procedures";
+        try {
+            ResponseEntity<Map<String, Object>> response = restTemplate.exchange(
+                    url, HttpMethod.GET,
+                    null,
+                    new ParameterizedTypeReference<Map<String, Object>>() {
+                    });
+            return response.getBody();
+        } catch (Exception e) {
+            log.error("Flask procedures call failed: {}", e.getMessage());
+            Map<String, Object> error = new HashMap<>();
+            error.put("error", "ML API not reachable: " + e.getMessage());
+            error.put("success", false);
+            return error;
+        }
+    }
 }

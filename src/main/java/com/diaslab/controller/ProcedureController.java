@@ -51,4 +51,11 @@ public class ProcedureController {
         Map<String, Object> info = procedureService.getModelInfo();
         return ResponseEntity.ok(info);
     }
+
+    // ── Get procedures list ───────────────────────────────────────────────────
+    @GetMapping("/procedures")
+    public ResponseEntity<Map<String, Object>> getProcedures() {
+        Map<String, Object> procedures = procedureService.getProcedures();
+        return ResponseEntity.ok(procedures);
+    }
 }
