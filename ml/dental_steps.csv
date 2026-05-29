@@ -1,167 +1,1138 @@
-procedure,subtype,current_step,next_step,component,brand,cost,source
-Complete Denture,CD Special Tray,Start,Special Tray,No Component Required,Generic,0,DIAS
-Complete Denture,CD Occlusal Rims,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-Complete Denture,CD Occlusal Rims,Secondary Cast,Denture Base,No Component Required,Generic,0,DIAS
-Complete Denture,CD Occlusal Rims,Denture Base,Occlusal Rims,No Component Required,Generic,0,DIAS
-Complete Denture,BPS Teeth Setting,Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS
-Complete Denture,BPS Teeth Setting,Articulation,BPS Teeth Setting,Teeth set,Ivoclar,50,DIAS
-Complete Denture,CD Teeth Setting,Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS
-Complete Denture,CD Teeth Setting,Articulation,CD Teeth Setting,Teeth set,Acryrock,280,DIAS
-Complete Denture,CD Processing,CD Teeth Setting,Denture Processing,Acrylic Denture Base,Generic,60,DIAS
-Complete Denture,BPS CD Processing,BPS Teeth Setting,BPS Denture Processing,Acrylic Denture Base,Ivoclar,700,DIAS
-Complete Denture,CD Repair,Start,Relining Rebasing Repair,Acrylic Denture Base,Generic,60,DIAS
-Complete Denture,CD Teeth Correction,Start,Teeth Setting Correction,No Component Required,Generic,0,DIAS
-FPD,Full Metal Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FPD,Full Metal Crown,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS
-FPD,Full Metal Crown,FPD Wax Pattern,Crown Fabrication,All Metal Crown,Generic,400,DIAS
-FPD,Metal Ceramic,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FPD,Metal Ceramic,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS
-FPD,Metal Ceramic,FPD Wax Pattern,Metal Coping,Metal Ceramic Crown,Generic,1300,DIAS
-FPD,Metal Ceramic,Metal Coping,Bisque Trial,No Component Required,Generic,0,DIAS
-FPD,Metal with Ceramic Facing,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FPD,Metal with Ceramic Facing,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS
-FPD,Metal with Ceramic Facing,FPD Wax Pattern,Ceramic Facing,Metal Ceramic Crown,Generic,1300,DIAS
-FPD,Metal with Ceramic Facing,Ceramic Facing,Bisque Trial,No Component Required,Generic,0,DIAS
-FPD,Hand Layered Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FPD,Hand Layered Crown,Secondary Cast,Ceramic Coping,Hand Layered Crown,Chinese Zirconia,1300,DIAS
-FPD,Hand Layered Crown,Ceramic Coping,Bisque Trial,No Component Required,Generic,0,DIAS
-FPD,Monolithic Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FPD,Monolithic Crown,Secondary Cast,Crown Fabrication,Monolithic Crown,Chinese Zirconia,1000,DIAS
-FVC Single Crown,Metal with Ceramic Facing,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FVC Single Crown,Metal with Ceramic Facing,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
-FVC Single Crown,Metal with Ceramic Facing,FVC Wax Pattern,Ceramic Facing,Metal Ceramic Crown,Generic,1300,DIAS
-FVC Single Crown,Metal with Ceramic Facing,Ceramic Facing,Bisque Trial,No Component Required,Generic,0,DIAS
-FVC Single Crown,Monolithic Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FVC Single Crown,Monolithic Crown,Secondary Cast,Crown Fabrication,Monolithic Crown,Chinese Zirconia,1000,DIAS
-FVC Single Crown,Hand Layered Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FVC Single Crown,Hand Layered Crown,Secondary Cast,Ceramic Coping,Hand Layered Crown,Chinese Zirconia,1300,DIAS
-FVC Single Crown,Hand Layered Crown,Ceramic Coping,Bisque Trial,No Component Required,Generic,0,DIAS
-FVC Single Crown,Metal Endo Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FVC Single Crown,Metal Endo Crown,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
-FVC Single Crown,Metal Endo Crown,FVC Wax Pattern,Endo Crown Fabrication,Metal Endo Crown,Generic,800,DIAS
-FVC Single Crown,Ceramic Endo Crown,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-FVC Single Crown,Ceramic Endo Crown,Secondary Cast,Endo Crown Fabrication,Ceramic Endo Crown,Chinese Zirconia,1000,DIAS
-FVC Single Crown,Emax,Start,Crown Fabrication,Monolithic Crown,German Zirconia,2000,DIAS
-Implant,Monolithic,Start,Crown Fabrication,Monolithic Crown,Chinese Zirconia,1000,DIAS
-Implant,Hand Layered Crown,Start,Ceramic Coping,Hand Layered Crown,Chinese Zirconia,1300,DIAS
-Implant,Hand Layered Crown,Ceramic Coping,Bisque Trial,No Component Required,Generic,0,DIAS
-Implant,Metal Ceramic,Start,FPD Wax Pattern,No Component Required,Generic,0,DIAS
-Implant,Metal Ceramic,FPD Wax Pattern,Metal Coping,Metal Ceramic Crown,Generic,1300,DIAS
-Implant,Metal Ceramic,Metal Coping,Bisque Trial,No Component Required,Generic,0,DIAS
-Implant,Metal with Ceramic Facing,Start,FPD Wax Pattern,No Component Required,Generic,0,DIAS
-Implant,Metal with Ceramic Facing,FPD Wax Pattern,Ceramic Facing,Metal Ceramic Crown,Generic,1300,DIAS
-Implant,Metal with Ceramic Facing,Ceramic Facing,Bisque Trial,No Component Required,Generic,0,DIAS
-Implant,Castable Abutment,Start,Implant Wax Pattern,No Component Required,Generic,0,DIAS
-Implant,Castable Abutment,Implant Wax Pattern,Metal Cast Custom Abutment,Metal Ceramic Crown,Generic,1300,DIAS
-Implant,Castable Abutment,Metal Cast Custom Abutment,Bisque Trial,No Component Required,Generic,0,DIAS
-Implant,Jig Trial,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-Implant,Jig Trial,Secondary Cast,Verification Jig,No Component Required,Generic,0,DIAS
-Cast Partial Denture,DMLS Co-Cr,Start,DMLS Printing,Metal Denture Base,Co-cr,1000,DIAS
-Cast Partial Denture,DMLS Titanium,Start,DMLS Printing,Metal Denture Base,Titanium,2500,DIAS
-Cast Partial Denture,Manual,Start,Cast Pouring,No Component Required,Generic,0,DIAS
-Cast Partial Denture,Manual,Cast Pouring,Block Out,No Component Required,Generic,0,DIAS
-Cast Partial Denture,Manual,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS
-Cast Partial Denture,Manual,CPD Wax Pattern,CPD Metal Denture Base,Metal Denture Base,Generic,1500,DIAS
-Cast Partial Denture,Manual,CPD Metal Denture Base,Articulation,No Component Required,Generic,0,DIAS
-Cast Partial Denture,Manual,Articulation,CPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
-Cast Partial Denture,Manual,CPD Teeth Setting,CPD Processing,Acrylic Denture Base,Generic,60,DIAS
-Flexible Denture,Biodentaplast,Start,Cast Pouring,No Component Required,Generic,0,DIAS
-Flexible Denture,Biodentaplast,Cast Pouring,Block Out,No Component Required,Generic,0,DIAS
-Flexible Denture,Biodentaplast,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS
-Flexible Denture,Biodentaplast,CPD Wax Pattern,Flexible Denture Base,Flexible Denture Base,Biodentaplast,800,DIAS
-Flexible Denture,Biodentaplast,Flexible Denture Base,Articulation,No Component Required,Generic,0,DIAS
-Flexible Denture,Biodentaplast,Articulation,CPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
-Flexible Denture,Biodentaplast,CPD Teeth Setting,Flexible Denture Processing,Flexible Denture Base,Bredent Polyan,800,DIAS
-Flexible Denture,Bredent Second Edition,Start,Cast Pouring,No Component Required,Generic,0,DIAS
-Flexible Denture,Bredent Second Edition,Cast Pouring,Block Out,No Component Required,Generic,0,DIAS
-Flexible Denture,Bredent Second Edition,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS
-Flexible Denture,Bredent Second Edition,CPD Wax Pattern,Flexible Denture Base,Flexible Denture Base,Bredent Second Edition,800,DIAS
-Flexible Denture,Bredent Second Edition,Flexible Denture Base,Articulation,No Component Required,Generic,0,DIAS
-Flexible Denture,Bredent Second Edition,Articulation,CPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
-Flexible Denture,Bredent Second Edition,CPD Teeth Setting,Flexible Denture Processing,Flexible Denture Base,Bredent Second Edition,800,DIAS
-Onlay,Metal Onlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-Onlay,Metal Onlay,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
-Onlay,Metal Onlay,FVC Wax Pattern,Metal Onlay Fabrication,Metal Onlay,Generic,800,DIAS
-Onlay,Ceramic Onlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-Onlay,Ceramic Onlay,Secondary Cast,Ceramic Onlay Fabrication,Ceramic Onlay,Chinese Zirconia,1000,DIAS
-Inlay,Metal Inlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-Inlay,Metal Inlay,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS
-Inlay,Metal Inlay,FVC Wax Pattern,Metal Inlay Fabrication,Metal Inlay,Generic,500,DIAS
-Inlay,Ceramic Inlay,Start,Secondary Cast,No Component Required,Generic,0,DIAS
-Inlay,Ceramic Inlay,Secondary Cast,Ceramic Inlay Fabrication,Ceramic Inlay,Chinese Zirconia,1000,DIAS
-TPD,TPD Special Tray,Start,Special Tray,No Component Required,Generic,0,DIAS
-TPD,TPD Occlusal Rims,Special Tray,Denture Base,No Component Required,Generic,0,DIAS
-TPD,TPD Occlusal Rims,Denture Base,Occlusal Rims,No Component Required,Generic,0,DIAS
-TPD,TPD Teeth Setting,Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS
-TPD,TPD Teeth Setting,Articulation,TPD Teeth Setting,Teeth Set,Acryrock,10,DIAS
-TPD,TPD Processing,TPD Teeth Setting,TPD Denture Processing,Acrylic Denture Base,Generic,60,DIAS
-Milling,Zirconia Coping,Start,Zirconia Milling,Hand Layered Crown,Chinese Zirconia,1300,DIAS
-Milling,Zirconia Monolithic Crown,Start,Zirconia Milling,Monolithic Crown,Chinese Zirconia,1000,DIAS
-Milling,PMMA-ML,Start,PMMA Milling,ML Acrylic Temporary Crown,PMMA-ML,500,DIAS
-Milling,PMMA-M,Start,PMMA Milling,Monolayer Acrylic Temp Crown,PMMA-M,50,DIAS
-Milling,Metal Milling,Start,Metal Milling,Metal Ceramic Crown,Metal,1300,DIAS
-Milling,Wax Milling,Start,Wax Milling,No Component Required,Generic,0,DIAS
-Out Sourcing,Gingival Porcelain,Start,Crown Fabrication,E Max Gingival Porcelain,Out Source,225,DIAS
-Out Sourcing,All Ceramic Crown,Start,Crown Fabrication,E Max Crown,E Max Crown OS,3600,DIAS
-Out Sourcing,Veneer,Start,E Max Veneer Fabrication,E Max Veneer,E Max Veneer OS,3600,DIAS
-Maryland Bridge,Maryland Bridge,Start,Maryland Bridge Retainer,Maryland Retainer,Metal,200,DIAS
-Maryland Bridge,Maryland Bridge,Maryland Bridge Retainer,Maryland Pontic,Maryland Pontic,Metal Ceramic,1300,DIAS
-Cast Post,Cast Post,Start,Post and Core Fabrication,Metal Post and Core,Generic,500,DIAS
-Space Maintainer,Space Maintainer,Start,Oral Appliance Fabrication,Space Maintainer,Generic,175,DIAS
-Splint,Hard Splint,Start,Hard Splint Fabrication,Hard Splint,Generic,175,DIAS
-Splint,Soft Splint,Start,Soft Splint Fabrication,Soft Splint,Generic,175,DIAS
-Welding Soldering,Welding Soldering,Start,Welding Soldering,No Component Required,Generic,0,DIAS
-Telescopic Coping,Primary Coping,Start,Primary Coping Fabrication,All Metal Crown,Generic,400,DIAS
-Telescopic Coping,Secondary Coping,Primary Coping Fabrication,Secondary Coping Fabrication,All Metal Crown,Generic,400,DIAS
-Removable Appliance,Hawleys Appliance,Start,Oral Appliance Fabrication,Hawleys Appliance,Generic,175,DIAS
-Removable Appliance,Lip Bumper,Start,Oral Appliance Fabrication,Lip Bumper,Generic,175,DIAS
-Removable Appliance,Inclined Plane,Start,Oral Appliance Fabrication,Inclined Plane,Generic,175,DIAS
-Removable Appliance,Band and Loop,Start,Oral Appliance Fabrication,Band and Loop,Generic,175,DIAS
-Removable Appliance,Beggs Retainer,Start,Oral Appliance Fabrication,Beggs Retainer,Generic,175,DIAS
-Removable Appliance,Bite Plane,Start,Oral Appliance Fabrication,Bite Plane,Generic,175,DIAS
-Removable Appliance,Nance Palatal,Start,Oral Appliance Fabrication,Nance Palatal,Generic,200,DIAS
-Removable Appliance,Lingual Arch,Start,Oral Appliance Fabrication,Lingual Arch,Generic,200,DIAS
-Removable Appliance,Distal Shoe,Start,Oral Appliance Fabrication,Distal Shoe,Generic,250,DIAS
-Removable Appliance,Transpalatal,Start,Oral Appliance Fabrication,Transpalatal,Generic,200,DIAS
-Removable Appliance,Habit Braking,Start,Oral Appliance Fabrication,Habit Braking,Generic,250,DIAS
-Mock Up,Mock Up Manual,Start,Diagnostic Wax Up Manual,Mock Up,Generic,50,DIAS
-Mock Up,Mock Up CADCAM,Start,Diagnostic Wax Up CADCAM,Mock Up,Generic,50,DIAS
-Temporary Crown,Temporary Acrylic Crown,Start,Temporary Crown Fabrication,Temporary Crown,Generic,50,DIAS
-PMMA Design Milling,PMMA CADCAM ML,Start,PMMA CADCAM Milling,ML Acrylic Temporary Crown,PMMA-ML,500,DIAS
-PMMA Design Milling,PMMA CADCAM M,Start,PMMA CADCAM Milling,Moonolayer Acrylic Temp Crown,PMMA-M,50,DIAS
-Malo Framework,Malo Framework,Start,DMLS Printing,Malo Framework,Titanium,5000,DIAS
-Complete Denture,Complete Denture - AFPAM Ref 6,Molar (Centric Occlusion),Premolar (Centric Occlusion),Refer AFPAM,Generic,0,AFPAM_vol1
-Cast Partial Denture,Cast Partial Denture - AFPAM Ref 10,Line Detail Showing The Toothborne Area,Line Detail Showing Distal Extension Area,Refer AFPAM,Generic,0,AFPAM_vol1
-Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 4,"Quenched In Water, The M Etal Is In Its Softest State (Annealing)",And Wrought Wire Prosthetic A Ppliances,Refer AFPAM,Generic,0,AFPAM_vol1
-Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,"Clamp, And Tilt Top Lock Screw",After The Path Of Insertion Has Been Chosen (Figure 8,Refer AFPAM,Generic,0,AFPAM_vol1
-Implant,Implant - AFPAM Ref 1,An Aromatic Oil Derived From Clove Oil To Relieve Pulpal Pain,A Principal Ingredient In Zinc Oxide Eugenol Impression Pastes,Refer AFPAM,Generic,0,AFPAM_vol1
-Complete Denture,Complete Denture - AFPAM Ref 3,The Process Of Forming A Casting In A Mold,T Ooth From The M Idline,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 3,T Ooth From The M Idline,When Surveying,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 3,When Surveying,Of Forming A Casting In A Mold,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 4,Of Making A Substance More Compact,Of The Mandible,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 7,The Hollow Form Or Matrix In Which An Object Is Cast Or Shaped,The Shape Of An Artificial Tooth,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 7,The Shape Of An Artificial Tooth,The Laboratory Procedure Of Attaching A Cast To An Articulator,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 7,The Laboratory Procedure Of Attaching A Cast To An Articulator,To An Articulator,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 8,To Smooth And Finish The Wax On A Complete Denture,To Flow And Carve A Wax Pattern For A Fixed Restoration,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 8,To Flow And Carve A Wax Pattern For A Fixed Restoration,To Contour The Wax For Any Dental Prosthesis,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 8,To Contour The Wax For Any Dental Prosthesis,Wax On A Complete Denture,Refer AFPAM,Generic,0,AFPAM_vol2
-Complete Denture,Complete Denture - AFPAM Ref 10,Open The Unit For Any Repairs,Impressions And Perform Various Investing Procedures,Refer AFPAM,Generic,0,AFPAM_vol2
-Cast Partial Denture,Cast Partial Denture - AFPAM Ref 9,Full Gold Units Or Rpd Frameworks,Them By Centrifugal Force Into A Heated Mold,Refer AFPAM,Generic,0,AFPAM_vol2
-Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 9,The Process Of Forming A Casting In A Mold,When Surveying,Refer AFPAM,Generic,0,AFPAM_vol2
-Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 9,When Surveying,Of Forming A Casting In A Mold,Refer AFPAM,Generic,0,AFPAM_vol2
-Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,The Process Of Forming A Casting In A Mold,When Surveying,Refer AFPAM,Generic,0,AFPAM_vol2
-Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,When Surveying,Of Forming A Casting In A Mold,Refer AFPAM,Generic,0,AFPAM_vol2
-Crown,Crown - AFPAM Ref 3,Apply A Very Thin Surface Hardener Over The Marked Margins,Carefully Shave Away The Carbon,Refer AFPAM,Generic,0,AFPAM_vol2
-Crown,Crown - AFPAM Ref 5,Casting As You Would An In Lay,Casting With Mounted Stones Or Sandpaper Discs,Refer AFPAM,Generic,0,AFPAM_vol2
-Crown,Crown - AFPAM Ref 5,Casting With Mounted Stones Or Sandpaper Discs,With A Rubber Wheel,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 1,An Aromatic Oil Derived From Clove Oil To Relieve Pulpal Pain,A Principal Ingredient In Zinc Oxide Eugenol Impression Pastes,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 3,Be Fabricated With The Abutm Ent Replicas In Place,When Fabricating The Master Cast (Paragraph 6,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 3,When Fabricating The Master Cast (Paragraph 6,"Metal, Not The Gold Cylinder",Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 7,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 7,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 8,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 8,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 9,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 9,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 10,"Inserted, A Layer Of Oxide Form S On The Titanium Implant",Stage Surgery,Refer AFPAM,Generic,0,AFPAM_vol2
-Implant,Implant - AFPAM Ref 10,Stage Surgery,A Tissue Flap Reflectio N Is Done To Expose The Bone,Refer AFPAM,Generic,0,AFPAM_vol2
+procedure,subtype,current_step,next_step
+Complete Denture,Complete Denture - AFPAM Ref 3,Casting,Survey and Design
+Complete Denture,Complete Denture - AFPAM Ref 3,Survey and Design,Casting
+Complete Denture,Complete Denture - AFPAM Ref 8,Finishing and Polishing,Wax Pattern
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 9,Casting,Survey and Design
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 9,Survey and Design,Casting
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,Casting,Survey and Design
+Fixed Partial Denture,Fixed Partial Denture - AFPAM Ref 10,Survey and Design,Casting
+Inlay,General,Impression,Processing
+Inlay,General,Processing,Ceramic Layering
+Inlay,General,Casting,Ceramic Layering
+Inlay,General,Ceramic Layering,Articulation
+Inlay,General,Casting,Articulation
+Inlay,General,Articulation,Ceramic Layering
+Inlay,General,Finishing and Polishing,Ceramic Layering
+Inlay,General,Investing,Ceramic Layering
+Inlay,General,Ceramic Layering,Investing
+Inlay,General,Ceramic Layering,Finishing and Polishing
+General,General,Casting,Wax Pattern
+Inlay,General,Wax Pattern,Casting
+Cast Partial Denture,General,Casting,Wax Pattern
+Cast Partial Denture,General,Wax Pattern,Investing
+Implant,General,Wax Pattern,Casting
+Implant,General,Casting,Wax Pattern
+Implant,General,Articulation,Casting
+Implant,General,Casting,Investing
+Cast Partial Denture,General,Casting,Investing
+Cast Partial Denture,General,Investing,Casting
+Cast Partial Denture,General,Secondary Cast,Wax Pattern
+Cast Partial Denture,General,Investing,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Casting
+Cast Partial Denture,General,Wax Pattern,Casting
+Cast Partial Denture,General,Trial,Wax Pattern
+Cast Partial Denture,General,Delivery,Investing
+Cast Partial Denture,General,Investing,Wax Pattern
+Cast Partial Denture,General,Casting,Start
+Cast Partial Denture,General,Start,Investing
+Inlay,General,Casting,Investing
+Inlay,General,Investing,Impression
+Inlay,General,Investing,Casting
+Inlay,General,Wax Pattern,Investing
+Inlay,General,Casting,Finishing and Polishing
+Inlay,General,Finishing and Polishing,Casting
+Crown,General,Casting,Investing
+Cast Partial Denture,General,Investing,Soldering
+Cast Partial Denture,General,Soldering,Investing
+Cast Partial Denture,General,Investing,Framework
+Cast Partial Denture,General,Framework,Wax Pattern
+Cast Partial Denture,General,Casting,Impression
+Cast Partial Denture,General,Impression,Casting
+Cast Partial Denture,General,Casting,Processing
+Cast Partial Denture,General,Processing,Impression
+Crown,General,Survey and Design,Investing
+Crown,General,Investing,Finishing and Polishing
+Crown,General,Finishing and Polishing,Casting
+Crown,General,Casting,Finishing and Polishing
+Crown,General,Investing,Casting
+Crown,General,Wax Pattern,Investing
+Crown,General,Impression,Investing
+Crown,General,Investing,Impression
+Crown,General,Investing,Wax Pattern
+Crown,General,Wax Pattern,Casting
+Cast Partial Denture,General,Impression,Wax Pattern
+Cast Partial Denture,General,Casting,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Casting
+FPD,General,Wax Pattern,Casting
+Crown,General,Casting,Wax Pattern
+FPD,General,Investing,Mounting
+FPD,General,Mounting,Wax Pattern
+FPD,General,Casting,Wax Pattern
+FPD,General,Wax Pattern,Investing
+FPD,General,Investing,Wax Pattern
+FPD,General,Wax Pattern,Survey and Design
+FPD,General,Survey and Design,Investing
+FPD,General,Casting,Investing
+FPD,General,Investing,Casting
+Cast Partial Denture,General,Wax Pattern,Cleaning
+Cast Partial Denture,General,Cleaning,Investing
+FPD,General,Investing,Secondary Cast
+FPD,General,Secondary Cast,Casting
+FPD,General,Secondary Cast,Investing
+FPD,General,Wax Pattern,Secondary Cast
+FPD,General,Investing,Start
+FPD,General,Block Out,Investing
+FPD,General,Investing,Trimming
+FPD,General,Start,Casting
+FPD,General,Adjustment,Casting
+FPD,General,Secondary Cast,Cleaning
+FPD,General,Casting,Mounting
+FPD,General,Casting,Impression
+FPD,General,Impression,Casting
+Crown,General,Casting,Ceramic Layering
+Crown,General,Ceramic Layering,Impression
+Crown,General,Impression,Wax Pattern
+Crown,General,Casting,Impression
+Crown,General,Impression,Casting
+Crown,General,Impression,Finishing and Polishing
+Cast Partial Denture,General,Casting,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Survey and Design
+Cast Partial Denture,General,Survey and Design,Secondary Cast
+Cast Partial Denture,General,Survey and Design,Finishing and Polishing
+Cast Partial Denture,General,Block Out,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Finishing and Polishing
+Cast Partial Denture,General,Casting,Block Out
+Inlay,General,Block Out,Denture Base
+Inlay,General,Secondary Cast,Block Out
+Inlay,General,Casting,Block Out
+Inlay,General,Casting,Secondary Cast
+Inlay,General,Block Out,Start
+Inlay,General,Start,Block Out
+Inlay,General,Block Out,Delivery
+Implant,General,Casting,Block Out
+Implant,General,Secondary Cast,Duplication
+Implant,General,Finishing and Polishing,Mounting
+Implant,General,Mounting,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Mounting
+Implant,General,Finishing and Polishing,Denture Base
+Implant,General,Denture Base,Survey and Design
+Implant,General,Duplication,Trimming
+Cast Partial Denture,General,Investing,Impression
+Cast Partial Denture,General,Impression,Investing
+Cast Partial Denture,General,Impression,Duplication
+Cast Partial Denture,General,Duplication,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Processing
+Cast Partial Denture,General,Processing,Secondary Cast
+Cast Partial Denture,General,Survey and Design,Trimming
+Cast Partial Denture,General,Wax Pattern,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Framework
+Implant,General,Casting,Finishing and Polishing
+Implant,General,Finishing and Polishing,Articulation
+Implant,General,Survey and Design,Trimming
+Cast Partial Denture,General,Investing,Coating
+Cast Partial Denture,General,Casting,Articulation
+Cast Partial Denture,General,Articulation,Casting
+Cast Partial Denture,General,Secondary Cast,Adjustment
+Cast Partial Denture,General,Finishing and Polishing,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Delivery
+Cast Partial Denture,General,Delivery,Impression
+Cast Partial Denture,General,Secondary Cast,Soldering
+Cast Partial Denture,General,Soldering,Occlusal Rims
+Cast Partial Denture,General,Adjustment,Articulation
+Cast Partial Denture,General,Framework,Casting
+Cast Partial Denture,General,Articulation,Soldering
+Cast Partial Denture,General,Secondary Cast,Investing
+Crown,General,Investing,Ceramic Layering
+Crown,General,Ceramic Layering,Casting
+Crown,General,Casting,Survey and Design
+Crown,General,Survey and Design,Casting
+Crown,General,Investing,Survey and Design
+Orthodontic,General,Trimming,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Cleaning
+Cast Partial Denture,General,Processing,Soldering
+Cast Partial Denture,General,Adjustment,Trimming
+Cast Partial Denture,General,Trimming,Adjustment
+Cast Partial Denture,General,Articulation,Delivery
+Cast Partial Denture,General,Delivery,Trimming
+Cast Partial Denture,General,Trimming,Mounting
+Orthodontic,General,Cleaning,Delivery
+Orthodontic,General,Delivery,Start
+Complete Denture,General,Impression,Denture Base
+Complete Denture,General,Denture Base,Mounting
+Complete Denture,General,Impression,Articulation
+Complete Denture,General,Articulation,Mounting
+Complete Denture,General,Mounting,Impression
+Complete Denture,General,Impression,Ceramic Layering
+Complete Denture,General,Ceramic Layering,Wax Pattern
+Complete Denture,General,Wax Pattern,Processing
+Complete Denture,General,Processing,Devesting
+Complete Denture,General,Devesting,Articulation
+Complete Denture,General,Articulation,Adjustment
+Complete Denture,General,Adjustment,Survey and Design
+Complete Denture,General,Survey and Design,Finishing and Polishing
+Complete Denture,General,Finishing and Polishing,Devesting
+Complete Denture,General,Finishing and Polishing,Articulation
+Complete Denture,General,Articulation,Processing
+Complete Denture,General,Processing,Secondary Cast
+Complete Denture,General,Secondary Cast,Processing
+Complete Denture,General,Processing,Articulation
+Complete Denture,General,Processing,Casting
+Complete Denture,General,Casting,Occlusal Rims
+Complete Denture,General,Investing,Wax Pattern
+Complete Denture,General,Wax Pattern,Investing
+Complete Denture,General,Wax Pattern,Secondary Cast
+Complete Denture,General,Secondary Cast,Devesting
+Complete Denture,General,Devesting,Finishing and Polishing
+Implant,General,Casting,Processing
+Implant,General,Processing,Impression
+Implant,General,Impression,Processing
+Implant,General,Processing,Finishing and Polishing
+Complete Denture,General,Investing,Casting
+Complete Denture,General,Casting,Impression
+Complete Denture,General,Impression,Casting
+Complete Denture,General,Articulation,Trial
+Inlay,General,Impression,Wax Pattern
+Inlay,General,Wax Pattern,Denture Base
+Complete Denture,General,Impression,Secondary Cast
+Complete Denture,General,Secondary Cast,Impression
+Complete Denture,General,Trimming,Impression
+Complete Denture,General,Articulation,Secondary Cast
+Cast Partial Denture,General,Impression,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Impression
+Cast Partial Denture,General,Impression,Trimming
+Cast Partial Denture,General,Trimming,Impression
+Complete Denture,General,Impression,Start
+Complete Denture,General,Start,Impression
+Complete Denture,General,Secondary Cast,Adjustment
+Complete Denture,General,Mounting,Secondary Cast
+Complete Denture,General,Secondary Cast,Articulation
+Complete Denture,General,Articulation,Impression
+Complete Denture,General,Articulation,Trimming
+Complete Denture,General,Trimming,Cleaning
+Complete Denture,General,Impression,Trimming
+Complete Denture,General,Secondary Cast,Trimming
+Complete Denture,General,Trimming,Secondary Cast
+Complete Denture,General,Start,Secondary Cast
+Complete Denture,General,Impression,Adjustment
+Complete Denture,General,Adjustment,Finishing and Polishing
+Complete Denture,General,Finishing and Polishing,Impression
+Complete Denture,General,Adjustment,Impression
+Complete Denture,General,Block Out,Denture Base
+Complete Denture,General,Denture Base,Trimming
+Complete Denture,General,Trimming,Coating
+Complete Denture,General,Denture Base,Impression
+Complete Denture,General,Impression,Coating
+Complete Denture,General,Coating,Impression
+Complete Denture,General,Impression,Mounting
+Complete Denture,General,Impression,Finishing and Polishing
+Complete Denture,General,Impression,Block Out
+Complete Denture,General,Block Out,Impression
+Complete Denture,General,Impression,Delivery
+Complete Denture,General,Delivery,Impression
+Complete Denture,General,Trimming,Block Out
+Complete Denture,General,Articulation,Block Out
+Complete Denture,General,Impression,Investing
+Complete Denture,General,Casting,Trimming
+Complete Denture,General,Trimming,Mounting
+Complete Denture,General,Trimming,Start
+Orthodontic,General,Impression,Secondary Cast
+Orthodontic,General,Secondary Cast,Impression
+Orthodontic,General,Impression,Trimming
+Orthodontic,General,Trimming,Impression
+Orthodontic,General,Impression,Block Out
+Orthodontic,General,Block Out,Impression
+Complete Denture,General,Adjustment,Trimming
+Complete Denture,General,Investing,Impression
+Complete Denture,General,Trimming,Denture Base
+Complete Denture,General,Adjustment,Processing
+Complete Denture,General,Processing,Mounting
+Complete Denture,General,Delivery,Processing
+Complete Denture,General,Mounting,Processing
+Complete Denture,General,Occlusal Rims,Processing
+Complete Denture,General,Mounting,Adjustment
+Complete Denture,General,Mounting,Delivery
+Complete Denture,General,Delivery,Articulation
+Complete Denture,General,Secondary Cast,Denture Base
+Complete Denture,General,Denture Base,Finishing and Polishing
+Complete Denture,General,Finishing and Polishing,Denture Base
+Complete Denture,General,Coating,Denture Base
+Complete Denture,General,Coating,Block Out
+Complete Denture,General,Block Out,Processing
+Complete Denture,General,Processing,Denture Base
+Complete Denture,General,Processing,Delivery
+Complete Denture,General,Delivery,Denture Base
+Complete Denture,General,Trimming,Finishing and Polishing
+Complete Denture,General,Block Out,Coating
+Complete Denture,General,Denture Base,Coating
+Complete Denture,General,Finishing and Polishing,Block Out
+Complete Denture,General,Coating,Secondary Cast
+Complete Denture,General,Denture Base,Processing
+Complete Denture,General,Finishing and Polishing,Processing
+Complete Denture,General,Processing,Trimming
+Complete Denture,General,Denture Base,Delivery
+Complete Denture,General,Denture Base,Investing
+Complete Denture,General,Denture Base,Wax Pattern
+Complete Denture,General,Wax Pattern,Denture Base
+Complete Denture,General,Coating,Delivery
+Complete Denture,General,Delivery,Start
+Complete Denture,General,Wax Pattern,Coating
+Complete Denture,General,Delivery,Wax Pattern
+Complete Denture,General,Secondary Cast,Wax Pattern
+Complete Denture,General,Coating,Processing
+Complete Denture,General,Processing,Finishing and Polishing
+Complete Denture,General,Wax Pattern,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Coating
+Complete Denture,General,Finishing and Polishing,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Denture Base
+Complete Denture,General,Denture Base,Block Out
+Complete Denture,General,Delivery,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Impression
+FPD,General,Denture Base,Impression
+FPD,General,Denture Base,Trimming
+FPD,General,Trimming,Denture Base
+FPD,General,Denture Base,Finishing and Polishing
+FPD,General,Denture Base,Articulation
+FPD,General,Articulation,Denture Base
+FPD,General,Denture Base,Block Out
+FPD,General,Duplication,Impression
+FPD,General,Impression,Denture Base
+FPD,General,Denture Base,Delivery
+Complete Denture,General,Finishing and Polishing,Wax Pattern
+Complete Denture,General,Wax Pattern,Finishing and Polishing
+Complete Denture,General,Finishing and Polishing,Mounting
+Complete Denture,General,Impression,Wax Pattern
+Complete Denture,General,Devesting,Denture Base
+Complete Denture,General,Coating,Wax Pattern
+Complete Denture,General,Secondary Cast,Mounting
+Complete Denture,General,Mounting,Articulation
+Complete Denture,General,Processing,Block Out
+Complete Denture,General,Secondary Cast,Finishing and Polishing
+Complete Denture,General,Denture Base,Adjustment
+Complete Denture,General,Investing,Processing
+Complete Denture,General,Secondary Cast,Cleaning
+Complete Denture,General,Cleaning,Secondary Cast
+Complete Denture,General,Secondary Cast,Coating
+Complete Denture,General,Wax Pattern,Cleaning
+Complete Denture,General,Finishing and Polishing,Secondary Cast
+Complete Denture,General,Impression,Processing
+Complete Denture,General,Processing,Impression
+Complete Denture,General,Mounting,Cleaning
+Complete Denture,General,Cleaning,Processing
+Complete Denture,General,Articulation,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Articulation
+Complete Denture,General,Mounting,Occlusal Rims
+Complete Denture,General,Adjustment,Occlusal Rims
+Complete Denture,General,Adjustment,Articulation
+Complete Denture,General,Articulation,Coating
+Complete Denture,General,Mounting,Coating
+Complete Denture,General,Articulation,Denture Base
+Complete Denture,General,Coating,Mounting
+Complete Denture,General,Adjustment,Coating
+Complete Denture,General,Denture Base,Articulation
+Complete Denture,General,Coating,Articulation
+Cast Partial Denture,General,Finishing and Polishing,Articulation
+Complete Denture,General,Articulation,Cleaning
+Complete Denture,General,Cleaning,Investing
+Complete Denture,General,Investing,Coating
+Complete Denture,General,Coating,Investing
+Complete Denture,General,Casting,Investing
+Cast Partial Denture,General,Occlusal Rims,Wax Pattern
+Inlay,General,Investing,Secondary Cast
+Inlay,General,Secondary Cast,Investing
+Inlay,General,Processing,Articulation
+Inlay,General,Articulation,Casting
+Complete Denture,General,Casting,Wax Pattern
+Complete Denture,General,Cleaning,Coating
+Complete Denture,General,Trimming,Processing
+Complete Denture,General,Finishing and Polishing,Adjustment
+Complete Denture,General,Articulation,Investing
+Crown,General,Finishing and Polishing,Articulation
+Crown,General,Articulation,Trial
+Crown,General,Trial,Casting
+Crown,General,Articulation,Processing
+Crown,General,Processing,Wax Pattern
+Crown,General,Casting,Trimming
+Crown,General,Trimming,Finishing and Polishing
+Complete Denture,General,Articulation,Wax Pattern
+Complete Denture,General,Wax Pattern,Articulation
+Complete Denture,General,Articulation,Casting
+Crown,General,Processing,Casting
+Crown,General,Impression,Secondary Cast
+Crown,General,Secondary Cast,Impression
+Crown,General,Impression,Coating
+Crown,General,Coating,Impression
+Complete Denture,General,Secondary Cast,Investing
+Complete Denture,General,Casting,Adjustment
+Complete Denture,General,Adjustment,Wax Pattern
+Complete Denture,General,Investing,Finishing and Polishing
+Complete Denture,General,Casting,Finishing and Polishing
+Complete Denture,General,Investing,Trimming
+Complete Denture,General,Processing,Wax Pattern
+Complete Denture,General,Trimming,Investing
+Complete Denture,General,Investing,Articulation
+Complete Denture,General,Trimming,Articulation
+Complete Denture,General,Investing,Devesting
+Complete Denture,General,Articulation,Finishing and Polishing
+Complete Denture,General,Adjustment,Ceramic Layering
+Complete Denture,General,Ceramic Layering,Finishing and Polishing
+Complete Denture,General,Finishing and Polishing,Ceramic Layering
+Complete Denture,General,Articulation,Ceramic Layering
+Complete Denture,General,Ceramic Layering,Processing
+Complete Denture,General,Processing,Adjustment
+Complete Denture,General,Wax Pattern,Trial
+Complete Denture,General,Trial,Wax Pattern
+Complete Denture,General,Finishing and Polishing,Trimming
+Complete Denture,General,Mounting,Finishing and Polishing
+Complete Denture,General,Trial,Articulation
+Complete Denture,General,Trimming,Wax Pattern
+Complete Denture,General,Trial,Finishing and Polishing
+Complete Denture,General,Denture Base,Trial
+Complete Denture,General,Trial,Denture Base
+Complete Denture,General,Processing,Trial
+Complete Denture,General,Start,Trimming
+Complete Denture,General,Processing,Coating
+Complete Denture,General,Wax Pattern,Trimming
+Complete Denture,General,Finishing and Polishing,Coating
+Complete Denture,General,Processing,Investing
+Complete Denture,General,Investing,Secondary Cast
+Complete Denture,General,Cleaning,Wax Pattern
+Complete Denture,General,Denture Base,Cleaning
+Complete Denture,General,Trial,Processing
+Complete Denture,General,Wax Pattern,Start
+Complete Denture,General,Finishing and Polishing,Investing
+Complete Denture,General,Wax Pattern,Adjustment
+Complete Denture,General,Adjustment,Devesting
+Complete Denture,General,Devesting,Processing
+Complete Denture,General,Finishing and Polishing,Casting
+Complete Denture,General,Articulation,Devesting
+Complete Denture,General,Devesting,Investing
+Complete Denture,General,Mounting,Trimming
+Complete Denture,General,Finishing and Polishing,Start
+Complete Denture,General,Processing,Duplication
+Orthodontic,General,Processing,Impression
+Complete Denture,General,Duplication,Secondary Cast
+Complete Denture,General,Processing,Cleaning
+Complete Denture,General,Duplication,Trimming
+Complete Denture,General,Secondary Cast,Duplication
+Complete Denture,General,Articulation,Repair or Reline
+Complete Denture,General,Repair or Reline,Processing
+Complete Denture,General,Finishing and Polishing,Repair or Reline
+Complete Denture,General,Repair or Reline,Impression
+Complete Denture,General,Repair or Reline,Finishing and Polishing
+Complete Denture,General,Repair or Reline,Articulation
+Complete Denture,General,Adjustment,Start
+Complete Denture,General,Wax Pattern,Impression
+Complete Denture,General,Processing,Ceramic Layering
+Complete Denture,General,Adjustment,Denture Base
+Complete Denture,General,Adjustment,Secondary Cast
+Complete Denture,General,Coating,Finishing and Polishing
+Complete Denture,General,Adjustment,Repair or Reline
+Complete Denture,General,Repair or Reline,Adjustment
+Complete Denture,General,Ceramic Layering,Denture Base
+Inlay,General,Denture Base,Impression
+Inlay,General,Finishing and Polishing,Articulation
+Inlay,General,Impression,Denture Base
+Inlay,General,Denture Base,Finishing and Polishing
+Complete Denture,General,Secondary Cast,Repair or Reline
+Complete Denture,General,Repair or Reline,Secondary Cast
+Complete Denture,General,Coating,Repair or Reline
+Complete Denture,General,Trimming,Delivery
+Complete Denture,General,Delivery,Coating
+Complete Denture,General,Devesting,Secondary Cast
+Complete Denture,General,Cleaning,Denture Base
+Complete Denture,General,Ceramic Layering,Secondary Cast
+Complete Denture,General,Cleaning,Mounting
+Cast Partial Denture,General,Processing,Block Out
+Cast Partial Denture,General,Denture Base,Secondary Cast
+Cast Partial Denture,General,Cleaning,Framework
+Cast Partial Denture,General,Mounting,Processing
+Cast Partial Denture,General,Processing,Repair or Reline
+Cast Partial Denture,General,Finishing and Polishing,Investing
+Cast Partial Denture,General,Secondary Cast,Repair or Reline
+Cast Partial Denture,General,Repair or Reline,Processing
+Cast Partial Denture,General,Impression,Finishing and Polishing
+Cast Partial Denture,General,Investing,Ceramic Layering
+Cast Partial Denture,General,Ceramic Layering,Processing
+Complete Denture,General,Coating,Cleaning
+Complete Denture,General,Finishing and Polishing,Cleaning
+Complete Denture,General,Denture Base,Repair or Reline
+Complete Denture,General,Investing,Denture Base
+Complete Denture,General,Devesting,Trimming
+Complete Denture,General,Trimming,Adjustment
+Complete Denture,General,Investing,Adjustment
+Complete Denture,General,Cleaning,Finishing and Polishing
+Complete Denture,General,Processing,Start
+Complete Denture,General,Denture Base,Start
+Complete Denture,General,Trimming,Trial
+Complete Denture,General,Denture Base,Secondary Cast
+Complete Denture,General,Impression,Cleaning
+Complete Denture,General,Cleaning,Start
+Complete Denture,General,Start,Processing
+Complete Denture,General,Casting,Mounting
+Complete Denture,General,Casting,Survey and Design
+Complete Denture,General,Casting,Secondary Cast
+Complete Denture,General,Secondary Cast,Block Out
+Complete Denture,General,Coating,Casting
+Complete Denture,General,Investing,Mounting
+Complete Denture,General,Mounting,Investing
+Complete Denture,General,Trimming,Casting
+Complete Denture,General,Cleaning,Trimming
+Cast Partial Denture,General,Casting,Trimming
+Cast Partial Denture,General,Trimming,Finishing and Polishing
+Complete Denture,General,Casting,Processing
+Complete Denture,General,Denture Base,Casting
+Complete Denture,General,Adjustment,Casting
+Cast Partial Denture,General,Processing,Investing
+Complete Denture,General,Secondary Cast,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Casting
+Complete Denture,General,Block Out,Duplication
+Complete Denture,General,Finishing and Polishing,Duplication
+Complete Denture,General,Secondary Cast,Survey and Design
+Complete Denture,General,Mounting,Survey and Design
+Complete Denture,General,Survey and Design,Investing
+Complete Denture,General,Processing,Survey and Design
+Complete Denture,General,Survey and Design,Framework
+Complete Denture,General,Framework,Secondary Cast
+Complete Denture,General,Finishing and Polishing,Framework
+Complete Denture,General,Impression,Duplication
+Complete Denture,General,Duplication,Investing
+Complete Denture,General,Duplication,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Finishing and Polishing
+Complete Denture,General,Cleaning,Occlusal Rims
+Complete Denture,General,Survey and Design,Block Out
+Complete Denture,General,Block Out,Secondary Cast
+Complete Denture,General,Survey and Design,Soldering
+Complete Denture,General,Soldering,Framework
+Cast Partial Denture,General,Framework,Survey and Design
+Cast Partial Denture,General,Survey and Design,Soldering
+Cast Partial Denture,General,Soldering,Trial
+Cast Partial Denture,General,Survey and Design,Duplication
+Complete Denture,General,Soldering,Finishing and Polishing
+Complete Denture,General,Finishing and Polishing,Trial
+Complete Denture,General,Soldering,Processing
+Complete Denture,General,Investing,Block Out
+Implant,General,Impression,Secondary Cast
+Implant,General,Investing,Finishing and Polishing
+Implant,General,Adjustment,Finishing and Polishing
+Implant,General,Denture Base,Impression
+Implant,General,Impression,Denture Base
+Implant,General,Impression,Coating
+Implant,General,Coating,Denture Base
+Implant,General,Denture Base,Secondary Cast
+Implant,General,Secondary Cast,Coating
+Implant,General,Denture Base,Trimming
+Complete Denture,General,Denture Base,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Secondary Cast
+Complete Denture,General,Adjustment,Duplication
+Implant,General,Processing,Trimming
+Implant,General,Trimming,Processing
+Implant,General,Wax Pattern,Processing
+Crown,General,Ceramic Layering,Secondary Cast
+Complete Denture,General,Finishing and Polishing,Delivery
+Complete Denture,General,Delivery,Mounting
+Complete Denture,General,Mounting,Ceramic Layering
+FPD,General,Casting,Articulation
+FPD,General,Articulation,Adjustment
+Cast Partial Denture,General,Adjustment,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Denture Base
+Cast Partial Denture,General,Denture Base,Impression
+Cast Partial Denture,General,Processing,Trimming
+Implant,General,Occlusal Rims,Repair or Reline
+Implant,General,Repair or Reline,Trimming
+Orthodontic,General,Casting,Finishing and Polishing
+Orthodontic,General,Finishing and Polishing,Casting
+Crown,General,Ceramic Layering,Investing
+Crown,General,Finishing and Polishing,Ceramic Layering
+Crown,General,Wax Pattern,Impression
+Crown,General,Articulation,Impression
+Crown,General,Impression,Adjustment
+Crown,General,Adjustment,Impression
+Implant,General,Secondary Cast,Investing
+Crown,General,Ceramic Layering,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Adjustment
+Cast Partial Denture,General,Adjustment,Investing
+Cast Partial Denture,General,Investing,Processing
+Cast Partial Denture,General,Processing,Coating
+Cast Partial Denture,General,Coating,Devesting
+Orthodontic,General,Devesting,Casting
+Orthodontic,General,Casting,Articulation
+Crown,General,Wax Pattern,Ceramic Layering
+Crown,General,Casting,Delivery
+Crown,General,Delivery,Ceramic Layering
+Crown,General,Trimming,Ceramic Layering
+Crown,General,Duplication,Processing
+Crown,General,Processing,Secondary Cast
+Crown,General,Secondary Cast,Processing
+Crown,General,Finishing and Polishing,Impression
+Inlay,General,Finishing and Polishing,Investing
+Inlay,General,Investing,Adjustment
+Inlay,General,Adjustment,Investing
+Inlay,General,Impression,Finishing and Polishing
+Complete Denture,General,Ceramic Layering,Casting
+Crown,General,Articulation,Ceramic Layering
+Cast Partial Denture,General,Processing,Wax Pattern
+Cast Partial Denture,General,Wax Pattern,Processing
+Cast Partial Denture,General,Wax Pattern,Impression
+Crown,General,Wax Pattern,Articulation
+Crown,General,Processing,Articulation
+Crown,General,Articulation,Wax Pattern
+Implant,General,Wax Pattern,Impression
+Implant,General,Impression,Adjustment
+Implant,General,Adjustment,Impression
+Cast Partial Denture,General,Impression,Articulation
+Orthodontic,General,Articulation,Impression
+Orthodontic,General,Casting,Investing
+Orthodontic,General,Investing,Mounting
+Orthodontic,General,Mounting,Impression
+Orthodontic,General,Impression,Investing
+Orthodontic,General,Investing,Processing
+Orthodontic,General,Processing,Investing
+Orthodontic,General,Impression,Processing
+Orthodontic,General,Impression,Finishing and Polishing
+Complete Denture,General,Ceramic Layering,Investing
+Crown,General,Casting,Secondary Cast
+Crown,General,Secondary Cast,Mounting
+Crown,General,Mounting,Articulation
+Crown,General,Trimming,Impression
+Crown,General,Impression,Processing
+Crown,General,Processing,Ceramic Layering
+Crown,General,Ceramic Layering,Wax Pattern
+Crown,General,Investing,Articulation
+Crown,General,Articulation,Trimming
+Orthodontic,General,Impression,Casting
+Implant,General,Casting,Impression
+Inlay,General,Impression,Investing
+Inlay,General,Investing,Articulation
+Inlay,General,Articulation,Impression
+Inlay,General,Impression,Articulation
+Cast Partial Denture,General,Mounting,Adjustment
+Cast Partial Denture,General,Adjustment,Impression
+Crown,General,Ceramic Layering,Adjustment
+Crown,General,Adjustment,Finishing and Polishing
+Crown,General,Impression,Articulation
+Orthodontic,General,Articulation,Processing
+Crown,General,Finishing and Polishing,Mounting
+Cast Partial Denture,General,Casting,Repair or Reline
+Cast Partial Denture,General,Repair or Reline,Investing
+Cast Partial Denture,General,Articulation,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Impression
+Implant,General,Finishing and Polishing,Impression
+Implant,General,Impression,Wax Pattern
+Implant,General,Wax Pattern,Secondary Cast
+Implant,General,Secondary Cast,Impression
+Orthodontic,General,Articulation,Investing
+Cast Partial Denture,General,Ceramic Layering,Wax Pattern
+Cast Partial Denture,General,Finishing and Polishing,Wax Pattern
+Orthodontic,General,Impression,Ceramic Layering
+Cast Partial Denture,General,Wax Pattern,Trimming
+Implant,General,Processing,Investing
+Implant,General,Investing,Impression
+Cast Partial Denture,General,Secondary Cast,Trimming
+Cast Partial Denture,General,Impression,Occlusal Rims
+Cast Partial Denture,General,Survey and Design,Impression
+Cast Partial Denture,General,Occlusal Rims,Duplication
+Cast Partial Denture,General,Duplication,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Duplication
+Cast Partial Denture,General,Duplication,Investing
+Cast Partial Denture,General,Devesting,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Processing
+Cast Partial Denture,General,Processing,Devesting
+Cast Partial Denture,General,Devesting,Processing
+Cast Partial Denture,General,Processing,Finishing and Polishing
+Cast Partial Denture,General,Repair or Reline,Finishing and Polishing
+Complete Denture,General,Framework,Investing
+Cast Partial Denture,General,Investing,Survey and Design
+Cast Partial Denture,General,Secondary Cast,Duplication
+Cast Partial Denture,General,Duplication,Casting
+Cast Partial Denture,General,Finishing and Polishing,Framework
+Cast Partial Denture,General,Framework,Finishing and Polishing
+Orthodontic,General,Survey and Design,Impression
+Cast Partial Denture,General,Impression,Adjustment
+Cast Partial Denture,General,Impression,Mounting
+Cast Partial Denture,General,Mounting,Impression
+Cast Partial Denture,General,Impression,Cleaning
+Cast Partial Denture,General,Trimming,Cleaning
+Cast Partial Denture,General,Cleaning,Trimming
+Cast Partial Denture,General,Impression,Denture Base
+Cast Partial Denture,General,Impression,Survey and Design
+Cast Partial Denture,General,Occlusal Rims,Impression
+Cast Partial Denture,General,Impression,Framework
+Cast Partial Denture,General,Framework,Secondary Cast
+Cast Partial Denture,General,Framework,Impression
+Cast Partial Denture,General,Framework,Adjustment
+Implant,General,Impression,Framework
+Implant,General,Framework,Impression
+Cast Partial Denture,General,Adjustment,Framework
+Implant,General,Impression,Trimming
+Implant,General,Trimming,Secondary Cast
+Cast Partial Denture,General,Trimming,Secondary Cast
+Cast Partial Denture,General,Adjustment,Secondary Cast
+Cast Partial Denture,General,Cleaning,Impression
+Cast Partial Denture,General,Impression,Block Out
+Cast Partial Denture,General,Impression,Coating
+Cast Partial Denture,General,Coating,Impression
+Cast Partial Denture,General,Block Out,Impression
+Cast Partial Denture,General,Trimming,Occlusal Rims
+Cast Partial Denture,General,Occlusal Rims,Coating
+Cast Partial Denture,General,Impression,Processing
+Cast Partial Denture,General,Mounting,Articulation
+Cast Partial Denture,General,Articulation,Occlusal Rims
+Cast Partial Denture,General,Occlusal Rims,Secondary Cast
+Cast Partial Denture,General,Casting,Adjustment
+Cast Partial Denture,General,Framework,Denture Base
+Cast Partial Denture,General,Occlusal Rims,Block Out
+Cast Partial Denture,General,Block Out,Denture Base
+Cast Partial Denture,General,Processing,Occlusal Rims
+Cast Partial Denture,General,Occlusal Rims,Framework
+Cast Partial Denture,General,Finishing and Polishing,Occlusal Rims
+Cast Partial Denture,General,Occlusal Rims,Finishing and Polishing
+Cast Partial Denture,General,Occlusal Rims,Denture Base
+Cast Partial Denture,General,Mounting,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Trimming
+Cast Partial Denture,General,Denture Base,Occlusal Rims
+Cast Partial Denture,General,Occlusal Rims,Delivery
+Cast Partial Denture,General,Coating,Occlusal Rims
+Cast Partial Denture,General,Occlusal Rims,Articulation
+Cast Partial Denture,General,Impression,Delivery
+Cast Partial Denture,General,Occlusal Rims,Trimming
+Cast Partial Denture,General,Block Out,Occlusal Rims
+Cast Partial Denture,General,Denture Base,Coating
+Cast Partial Denture,General,Coating,Block Out
+Cast Partial Denture,General,Coating,Denture Base
+Cast Partial Denture,General,Denture Base,Trimming
+Cast Partial Denture,General,Block Out,Finishing and Polishing
+Cast Partial Denture,General,Mounting,Trimming
+Cast Partial Denture,General,Delivery,Denture Base
+Cast Partial Denture,General,Trimming,Denture Base
+Cast Partial Denture,General,Adjustment,Occlusal Rims
+Cast Partial Denture,General,Block Out,Coating
+Cast Partial Denture,General,Coating,Processing
+Cast Partial Denture,General,Processing,Framework
+Cast Partial Denture,General,Framework,Coating
+Cast Partial Denture,General,Framework,Occlusal Rims
+Cast Partial Denture,General,Adjustment,Processing
+Cast Partial Denture,General,Articulation,Mounting
+Cast Partial Denture,General,Mounting,Denture Base
+Cast Partial Denture,General,Denture Base,Adjustment
+Cast Partial Denture,General,Trimming,Framework
+Cast Partial Denture,General,Processing,Articulation
+Cast Partial Denture,General,Articulation,Processing
+Cast Partial Denture,General,Processing,Adjustment
+Cast Partial Denture,General,Trimming,Coating
+Cast Partial Denture,General,Denture Base,Mounting
+Complete Denture,General,Impression,Occlusal Rims
+Complete Denture,General,Trimming,Framework
+Cast Partial Denture,General,Wax Pattern,Survey and Design
+Cast Partial Denture,General,Survey and Design,Articulation
+Cast Partial Denture,General,Articulation,Adjustment
+Cast Partial Denture,General,Articulation,Investing
+FPD,General,Articulation,Casting
+Cast Partial Denture,General,Adjustment,Casting
+Implant,General,Survey and Design,Articulation
+Cast Partial Denture,General,Survey and Design,Delivery
+Cast Partial Denture,General,Articulation,Survey and Design
+Cast Partial Denture,General,Denture Base,Framework
+Cast Partial Denture,General,Mounting,Survey and Design
+Orthodontic,General,Casting,Survey and Design
+Crown,General,Secondary Cast,Survey and Design
+Cast Partial Denture,General,Cleaning,Secondary Cast
+Cast Partial Denture,General,Duplication,Block Out
+Cast Partial Denture,General,Block Out,Survey and Design
+Cast Partial Denture,General,Delivery,Survey and Design
+Cast Partial Denture,General,Survey and Design,Framework
+Cast Partial Denture,General,Block Out,Trimming
+Cast Partial Denture,General,Adjustment,Duplication
+Cast Partial Denture,General,Framework,Investing
+Cast Partial Denture,General,Processing,Duplication
+Cast Partial Denture,General,Duplication,Processing
+Cast Partial Denture,General,Duplication,Adjustment
+Cast Partial Denture,General,Trimming,Processing
+Cast Partial Denture,General,Investing,Delivery
+Cast Partial Denture,General,Investing,Duplication
+Cast Partial Denture,General,Trimming,Casting
+Cast Partial Denture,General,Trimming,Duplication
+Cast Partial Denture,General,Trimming,Delivery
+Cast Partial Denture,General,Cleaning,Coating
+Cast Partial Denture,General,Coating,Secondary Cast
+Cast Partial Denture,General,Coating,Duplication
+Cast Partial Denture,General,Duplication,Coating
+Cast Partial Denture,General,Coating,Investing
+Cast Partial Denture,General,Coating,Cleaning
+Cast Partial Denture,General,Duplication,Start
+Cast Partial Denture,General,Survey and Design,Wax Pattern
+Cast Partial Denture,General,Wax Pattern,Start
+Cast Partial Denture,General,Trimming,Wax Pattern
+Cast Partial Denture,General,Coating,Casting
+Inlay,General,Wax Pattern,Secondary Cast
+Inlay,General,Secondary Cast,Articulation
+Inlay,General,Articulation,Secondary Cast
+Inlay,General,Denture Base,Casting
+Inlay,General,Casting,Wax Pattern
+Inlay,General,Block Out,Survey and Design
+Cast Partial Denture,General,Denture Base,Wax Pattern
+Orthodontic,General,Survey and Design,Finishing and Polishing
+Orthodontic,General,Casting,Wax Pattern
+Orthodontic,General,Wax Pattern,Secondary Cast
+Orthodontic,General,Secondary Cast,Casting
+Orthodontic,General,Casting,Block Out
+Cast Partial Denture,General,Casting,Denture Base
+Cast Partial Denture,General,Denture Base,Casting
+Cast Partial Denture,General,Start,Finishing and Polishing
+Cast Partial Denture,General,Trimming,Investing
+Cast Partial Denture,General,Investing,Denture Base
+Cast Partial Denture,General,Investing,Adjustment
+Cast Partial Denture,General,Adjustment,Wax Pattern
+Cast Partial Denture,General,Secondary Cast,Denture Base
+Cast Partial Denture,General,Denture Base,Investing
+Cast Partial Denture,General,Wax Pattern,Mounting
+Cast Partial Denture,General,Mounting,Investing
+Cast Partial Denture,General,Casting,Framework
+Cast Partial Denture,General,Delivery,Adjustment
+Cast Partial Denture,General,Casting,Survey and Design
+Cast Partial Denture,General,Casting,Soldering
+Cast Partial Denture,General,Soldering,Casting
+Cast Partial Denture,General,Soldering,Secondary Cast
+Implant,General,Soldering,Adjustment
+Implant,General,Finishing and Polishing,Casting
+Implant,General,Casting,Soldering
+Implant,General,Soldering,Casting
+Cast Partial Denture,General,Investing,Start
+Cast Partial Denture,General,Delivery,Casting
+Orthodontic,General,Wax Pattern,Investing
+Cast Partial Denture,General,Investing,Trimming
+Orthodontic,General,Investing,Casting
+Orthodontic,General,Processing,Casting
+Cast Partial Denture,General,Investing,Block Out
+Cast Partial Denture,General,Block Out,Investing
+Cast Partial Denture,General,Cleaning,Casting
+Cast Partial Denture,General,Casting,Cleaning
+Orthodontic,General,Mounting,Adjustment
+Orthodontic,General,Adjustment,Mounting
+Orthodontic,General,Finishing and Polishing,Adjustment
+Cast Partial Denture,General,Secondary Cast,Block Out
+Cast Partial Denture,General,Framework,Articulation
+Cast Partial Denture,General,Wax Pattern,Framework
+Cast Partial Denture,General,Articulation,Secondary Cast
+Implant,General,Occlusal Rims,Trimming
+Cast Partial Denture,General,Secondary Cast,Articulation
+Cast Partial Denture,General,Mounting,Secondary Cast
+Implant,General,Processing,Secondary Cast
+Implant,General,Secondary Cast,Processing
+Cast Partial Denture,General,Coating,Articulation
+Cast Partial Denture,General,Articulation,Devesting
+Cast Partial Denture,General,Devesting,Investing
+Cast Partial Denture,General,Investing,Finishing and Polishing
+Cast Partial Denture,General,Wax Pattern,Denture Base
+Cast Partial Denture,General,Denture Base,Processing
+Cast Partial Denture,General,Denture Base,Devesting
+Cast Partial Denture,General,Investing,Mounting
+Cast Partial Denture,General,Mounting,Devesting
+Cast Partial Denture,General,Mounting,Coating
+Cast Partial Denture,General,Secondary Cast,Coating
+Cast Partial Denture,General,Framework,Processing
+Cast Partial Denture,General,Devesting,Denture Base
+Complete Denture,General,Trimming,Devesting
+Cast Partial Denture,General,Processing,Cleaning
+Cast Partial Denture,General,Cleaning,Trial
+Cast Partial Denture,General,Processing,Denture Base
+Cast Partial Denture,General,Devesting,Adjustment
+Cast Partial Denture,General,Adjustment,Coating
+Cast Partial Denture,General,Investing,Cleaning
+Cast Partial Denture,General,Cleaning,Finishing and Polishing
+Cast Partial Denture,General,Processing,Mounting
+Cast Partial Denture,General,Articulation,Denture Base
+Cast Partial Denture,General,Articulation,Ceramic Layering
+Cast Partial Denture,General,Ceramic Layering,Adjustment
+Cast Partial Denture,General,Ceramic Layering,Devesting
+Implant,General,Finishing and Polishing,Secondary Cast
+Cast Partial Denture,General,Adjustment,Devesting
+Cast Partial Denture,General,Finishing and Polishing,Devesting
+Cast Partial Denture,General,Secondary Cast,Mounting
+Cast Partial Denture,General,Articulation,Framework
+Cast Partial Denture,General,Devesting,Articulation
+Cast Partial Denture,General,Denture Base,Finishing and Polishing
+Cast Partial Denture,General,Denture Base,Articulation
+Cast Partial Denture,General,Impression,Repair or Reline
+Cast Partial Denture,General,Repair or Reline,Impression
+Cast Partial Denture,General,Impression,Start
+Cast Partial Denture,General,Start,Impression
+Cast Partial Denture,General,Repair or Reline,Trimming
+Cast Partial Denture,General,Denture Base,Repair or Reline
+Cast Partial Denture,General,Finishing and Polishing,Repair or Reline
+Cast Partial Denture,General,Coating,Mounting
+Cast Partial Denture,General,Articulation,Impression
+Cast Partial Denture,General,Repair or Reline,Articulation
+Cast Partial Denture,General,Denture Base,Delivery
+Cast Partial Denture,General,Delivery,Processing
+Cast Partial Denture,General,Articulation,Wax Pattern
+Complete Denture,General,Trial,Coating
+Cast Partial Denture,General,Repair or Reline,Secondary Cast
+Cast Partial Denture,General,Secondary Cast,Trial
+Cast Partial Denture,General,Trial,Processing
+Cast Partial Denture,General,Repair or Reline,Soldering
+Cast Partial Denture,General,Repair or Reline,Survey and Design
+Implant,General,Impression,Repair or Reline
+Implant,General,Repair or Reline,Survey and Design
+Implant,General,Survey and Design,Coating
+Implant,General,Block Out,Repair or Reline
+Implant,General,Trimming,Repair or Reline
+Implant,General,Repair or Reline,Coating
+Cast Partial Denture,General,Soldering,Delivery
+Cast Partial Denture,General,Delivery,Repair or Reline
+Cast Partial Denture,General,Repair or Reline,Casting
+Cast Partial Denture,General,Soldering,Repair or Reline
+Cast Partial Denture,General,Finishing and Polishing,Soldering
+Cast Partial Denture,General,Soldering,Finishing and Polishing
+Cast Partial Denture,General,Repair or Reline,Coating
+Cast Partial Denture,General,Soldering,Processing
+Cast Partial Denture,General,Articulation,Coating
+Cast Partial Denture,General,Trimming,Repair or Reline
+Cast Partial Denture,General,Repair or Reline,Denture Base
+Cast Partial Denture,General,Processing,Delivery
+Cast Partial Denture,General,Delivery,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Delivery
+Cast Partial Denture,General,Cleaning,Mounting
+Implant,General,Delivery,Articulation
+Implant,General,Trimming,Impression
+Implant,General,Impression,Articulation
+Implant,General,Articulation,Impression
+Implant,General,Articulation,Wax Pattern
+Implant,General,Wax Pattern,Articulation
+Implant,General,Wax Pattern,Mounting
+Implant,General,Mounting,Adjustment
+Implant,General,Adjustment,Wax Pattern
+Inlay,General,Secondary Cast,Casting
+Implant,General,Casting,Secondary Cast
+Orthodontic,General,Impression,Articulation
+Orthodontic,General,Articulation,Casting
+Orthodontic,General,Casting,Impression
+Orthodontic,General,Secondary Cast,Processing
+Orthodontic,General,Secondary Cast,Investing
+Orthodontic,General,Duplication,Processing
+Orthodontic,General,Processing,Block Out
+Cast Partial Denture,General,Coating,Trimming
+Cast Partial Denture,General,Wax Pattern,Finishing and Polishing
+Cast Partial Denture,General,Framework,Soldering
+Inlay,General,Cleaning,Casting
+Inlay,General,Casting,Soldering
+Inlay,General,Soldering,Investing
+Orthodontic,General,Framework,Casting
+Orthodontic,General,Casting,Soldering
+Cast Partial Denture,General,Framework,Trimming
+Inlay,General,Denture Base,Wax Pattern
+Inlay,General,Processing,Investing
+Inlay,General,Processing,Wax Pattern
+Orthodontic,General,Investing,Adjustment
+Orthodontic,General,Adjustment,Investing
+FPD,General,Casting,Trial
+FPD,General,Trial,Denture Base
+Cast Partial Denture,General,Casting,Trial
+Cast Partial Denture,General,Trial,Secondary Cast
+Cast Partial Denture,General,Processing,Casting
+Implant,General,Secondary Cast,Casting
+Cast Partial Denture,General,Adjustment,Survey and Design
+Cast Partial Denture,General,Adjustment,Denture Base
+Cast Partial Denture,General,Finishing and Polishing,Coating
+Cast Partial Denture,General,Coating,Finishing and Polishing
+Cast Partial Denture,General,Duplication,Trimming
+Implant,General,Investing,Secondary Cast
+Implant,General,Secondary Cast,Adjustment
+Implant,General,Adjustment,Secondary Cast
+Implant,General,Investing,Casting
+Implant,General,Secondary Cast,Trial
+Implant,General,Trimming,Block Out
+Implant,General,Block Out,Secondary Cast
+Implant,General,Secondary Cast,Block Out
+Cast Partial Denture,General,Wax Pattern,Delivery
+Cast Partial Denture,General,Delivery,Wax Pattern
+FPD,General,Casting,Secondary Cast
+FPD,General,Secondary Cast,Delivery
+FPD,General,Repair or Reline,Impression
+Cast Partial Denture,General,Trial,Framework
+Crown,General,Impression,Metal Coping
+Crown,General,Metal Coping,Secondary Cast
+FPD,General,Block Out,Secondary Cast
+FPD,General,Secondary Cast,Articulation
+FPD,General,Secondary Cast,Metal Coping
+FPD,General,Metal Coping,Finishing and Polishing
+FPD,General,Finishing and Polishing,Duplication
+FPD,General,Duplication,Metal Coping
+Cast Partial Denture,General,Trial,Impression
+Cast Partial Denture,General,Metal Coping,Finishing and Polishing
+Cast Partial Denture,General,Finishing and Polishing,Metal Coping
+FPD,General,Investing,Finishing and Polishing
+FPD,General,Finishing and Polishing,Secondary Cast
+FPD,General,Trial,Impression
+FPD,General,Impression,Processing
+FPD,General,Impression,Secondary Cast
+FPD,General,Secondary Cast,Repair or Reline
+FPD,General,Processing,Impression
+FPD,General,Metal Coping,Investing
+FPD,General,Finishing and Polishing,Metal Coping
+FPD,General,Metal Coping,Delivery
+FPD,General,Investing,Soldering
+Cast Partial Denture,General,Impression,Metal Coping
+Cast Partial Denture,General,Casting,Metal Coping
+Cast Partial Denture,General,Metal Coping,Impression
+Cast Partial Denture,General,Ceramic Layering,Block Out
+FPD,General,Impression,Metal Coping
+FPD,General,Finishing and Polishing,Investing
+FPD,General,Secondary Cast,Finishing and Polishing
+Complete Denture,General,Impression,Trial
+Complete Denture,General,Impression,Metal Coping
+Complete Denture,General,Metal Coping,Investing
+FPD,General,Casting,Processing
+Orthodontic,General,Processing,Secondary Cast
+FPD,General,Secondary Cast,Processing
+Crown,General,Metal Coping,Impression
+Crown,General,Metal Coping,Trial
+Crown,General,Trial,Investing
+Crown,General,Investing,Delivery
+Crown,General,Investing,Metal Coping
+Cast Partial Denture,General,Processing,Metal Coping
+Cast Partial Denture,General,Metal Coping,Trial
+Cast Partial Denture,General,Trial,Soldering
+Cast Partial Denture,General,Soldering,Metal Coping
+Cast Partial Denture,General,Casting,Duplication
+Cast Partial Denture,General,Duplication,Impression
+Cast Partial Denture,General,Delivery,Metal Coping
+Cast Partial Denture,General,Metal Coping,Investing
+Cast Partial Denture,General,Duplication,Metal Coping
+Cast Partial Denture,General,Metal Coping,Duplication
+Implant,General,Survey and Design,Processing
+Implant,General,Processing,Delivery
+Implant,General,Articulation,Finishing and Polishing
+Implant,General,Delivery,Secondary Cast
+Orthodontic,General,Start,Articulation
+Orthodontic,General,Soldering,Finishing and Polishing
+Orthodontic,General,Finishing and Polishing,Soldering
+Orthodontic,General,Delivery,Soldering
+Orthodontic,General,Delivery,Finishing and Polishing
+Cast Partial Denture,General,Trimming,Survey and Design
+Orthodontic,General,Finishing and Polishing,Impression
+Orthodontic,General,Trimming,Adjustment
+Orthodontic,General,Adjustment,Impression
+Orthodontic,General,Secondary Cast,Finishing and Polishing
+Orthodontic,General,Finishing and Polishing,Trimming
+Cast Partial Denture,General,Secondary Cast,Cleaning
+Cast Partial Denture,General,Secondary Cast,Occlusal Rims
+Implant,General,Duplication,Secondary Cast
+Implant,General,Coating,Duplication
+Implant,General,Secondary Cast,Trimming
+Orthodontic,General,Ceramic Layering,Finishing and Polishing
+Crown,General,Casting,Processing
+Crown,General,Processing,Finishing and Polishing
+Complete Denture,General,Casting,Devesting
+Complete Denture,General,Devesting,Wax Pattern
+Orthodontic,General,Impression,Mounting
+Implant,General,Articulation,Ceramic Layering
+Complete Denture,General,Ceramic Layering,Repair or Reline
+Complete Denture,General,Trimming,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Block Out
+Complete Denture,General,Block Out,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Trimming
+Complete Denture,General,Secondary Cast,Delivery
+Complete Denture,General,Delivery,Secondary Cast
+Complete Denture,General,Articulation,Start
+Complete Denture,General,Start,Articulation
+Complete Denture,General,Trial,Occlusal Rims
+Complete Denture,General,Occlusal Rims,Mounting
+Complete Denture,General,Occlusal Rims,Trial
+Complete Denture,General,Articulation,Delivery
+Complete Denture,General,Delivery,Finishing and Polishing
+Complete Denture,General,Adjustment,Mounting
+Crown,General,Adjustment,Casting
+Implant,General,Casting,Articulation
+Implant,General,Trial,Articulation
+Implant,General,Articulation,Investing
+Complete Denture,General,Impression,Repair or Reline
+Complete Denture,General,Repair or Reline,Denture Base
+Complete Denture,General,Delivery,Adjustment
+SPACE MAINTAINER,SPACE MAINTAINER,Oral Appliance – Gropers,Oral Appliance – Space Maintainer,Gropers,Generic,550 per arch,DIAS_JSON
+IMPLANT,JIG TRIAL,Secondary Cast,Verification Jig,No Component Required,Generic,0,DIAS_JSON
+IMPLANT,HAND LAYERED CROWN,Ceramic Coping,Bisque Trial,Hand Layered Crown,Chinese Zirconia,1300 per unit,DIAS_JSON
+IMPLANT,METAL CERAMIC,FPD Wax Pattern,Metal Coping,No Component Required,Generic,0,DIAS_JSON
+IMPLANT,METAL CERAMIC,Metal Coping,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+IMPLANT,METAL WITH CERAMIC FACING,FPD Wax Pattern,Ceramic Facing,No Component Required,Generic,0,DIAS_JSON
+IMPLANT,METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+IMPLANT,IMPLANT CASTABLE ABUTMENT,Implant Wax Pattern,Metal Cast Custom Abutment,No Component Required,Generic,0,DIAS_JSON
+IMPLANT,IMPLANT CASTABLE ABUTMENT,Metal Cast Custom Abutment,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+MARYLAND BRIDGE,MARYLAND BRIDGE,Maryland Bridge – Retainer,Maryland Bridge – Pontic,Maryland Retainer,Metal,200 per abutment,DIAS_JSON
+MARYLAND BRIDGE,MARYLAND BRIDGE,Maryland Bridge – Pontic,Bisque Trial (Layering),Maryland Pontic,Metal Ceramic,1300 per pontic,DIAS_JSON
+TELESCOPIC COPING,PRIMARY & SECONDARY COPING,Primary Coping,Secondary Coping,All Metal Crown,Generic,400,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Co-cr,Cast Pouring (Secondary Cast),CPD Designing,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Co-cr,CPD Designing,DMLS Printing,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Co-cr,DMLS Printing,Articulation,Metal Denture Base,Co-cr,1000 per arch,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Co-cr,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Co-cr,CPD Teeth Setting,CPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Titanium,Cast Pouring (Secondary Cast),CPD Designing,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Titanium,CPD Designing,DMLS Printing,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Titanium,DMLS Printing,Articulation,Metal Denture Base,Titanium,2500 per arch,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Titanium,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,DMLS – Titanium,CPD Teeth Setting,CPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
+CAST PARTIAL DENTURE,MANUAL,Cast Pouring (Secondary Cast),Block Out,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,MANUAL,Block Out,CPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,MANUAL,CPD Wax Pattern,CPD Metal Denture Base (RPD Framework),No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,MANUAL,CPD Metal Denture Base (RPD Framework),Articulation,Metal Denture Base,Generic,1500 per arch,DIAS_JSON
+CAST PARTIAL DENTURE,MANUAL,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+CAST PARTIAL DENTURE,MANUAL,CPD Teeth Setting,CPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Cast Pouring (Secondary Cast),Block Out,No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Block Out,Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Wax Pattern,Flexible Denture Base (RPD Framework),No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Flexible Denture Base (RPD Framework),Articulation,Flexible Denture Base,Biodentaplast,800,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Polyan,CPD Teeth Setting,Flexible Denture Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Cast Pouring (Secondary Cast),Block Out,No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Block Out,Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Wax Pattern,Flexible Denture Base (RPD Framework),No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Flexible Denture Base (RPD Framework),Articulation,Flexible Denture Base,Biodentaplast,800,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,Articulation,CPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+FLEXIBLE DENTURE,FLEXIBLE DENTURE – Bredent Second Edition,CPD Teeth Setting,Flexible Denture Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
+FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,FVC Wax Pattern,Ceramic Facing,No Component Required,Generic,0,DIAS_JSON
+FVC (SINGLE CROWN),METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+FVC (SINGLE CROWN),MONOLITHIC CROWN,Secondary Cast,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
+FVC (SINGLE CROWN),HAND LAYERED CROWN,Secondary Cast,Ceramic Coping,No Component Required,Generic,0,DIAS_JSON
+FVC (SINGLE CROWN),HAND LAYERED CROWN,Ceramic Coping,Bisque Trial,Hand Layered Crown,Chinese Zirconia,1300 per unit,DIAS_JSON
+FVC (SINGLE CROWN),METAL ENDO CROWN,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FVC (SINGLE CROWN),METAL ENDO CROWN,FVC Wax Pattern,Endo Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
+FVC (SINGLE CROWN),CERAMIC ENDO CROWN,Secondary Cast,Endo Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),MONOLITHIC CROWN,Secondary Cast,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),HAND LAYERED CROWN,Secondary Cast,Ceramic Coping,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),HAND LAYERED CROWN,Ceramic Coping,Bisque Trial,Hand Layered Crown,Chinese Zirconia,1300 per unit,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),FULL METAL CROWN,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),FULL METAL CROWN,FPD Wax Pattern,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,FPD Wax Pattern,Metal Coping,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),METAL CERAMIC,Metal Coping,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,Secondary Cast,FPD Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,FPD Wax Pattern,Ceramic Facing,No Component Required,Generic,0,DIAS_JSON
+FPD (FIXED PARTIAL DENTURE),METAL WITH CERAMIC FACING,Ceramic Facing,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Special Tray,CD Occlusal Rims – Secondary Cast,Special Tray,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Secondary Cast,CD Occlusal Rims – Denture Base,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Denture Base,CD Occlusal Rims – Occlusal Rims,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Occlusal Rims – Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,Articulation,CD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – Acryrock Teeth Setting,CD Teeth Setting,CD Processing,Teeth Set,Acryrock,280,DIAS_JSON
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Special Tray,CD Occlusal Rims – Secondary Cast,Special Tray,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Secondary Cast,CD Occlusal Rims – Denture Base,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Denture Base,CD Occlusal Rims – Occlusal Rims,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),CD Occlusal Rims – Occlusal Rims,Articulation,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),Articulation,BPS Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+CD (COMPLETE DENTURE),CD – BPS (Ivoclar Teeth),BPS Teeth Setting,BPS CD Processing,Teeth Set,Ivoclar,50 per teeth,DIAS_JSON
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Special Tray (Distal Extension cases),TPD Denture Base,Special Tray,Generic,0,DIAS_JSON
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Denture Base,TPD Occlusal Rims,Denture Base,Generic,0,DIAS_JSON
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Occlusal Rims,Articulation,Occlusal Rims,Generic,0,DIAS_JSON
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,Articulation,TPD Teeth Setting,No Component Required,Generic,0,DIAS_JSON
+TPD (TRANSITIONAL PARTIAL DENTURE),TPD,TPD Teeth Setting,TPD Processing,Teeth Set,Acryrock,10 per teeth,DIAS_JSON
+ONLAY,METAL ONLAY,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+ONLAY,METAL ONLAY,FVC Wax Pattern,Onlay Fabrication,No Component Required,Generic,0,DIAS_JSON
+ONLAY,CERAMIC ONLAY,Secondary Cast,Onlay Fabrication,No Component Required,Generic,0,DIAS_JSON
+INLAY,METAL INLAY,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+INLAY,METAL INLAY,FVC Wax Pattern,Inlay Fabrication,No Component Required,Generic,0,DIAS_JSON
+INLAY,CERAMIC INLAY,Secondary Cast,Inlay Fabrication,No Component Required,Generic,0,DIAS_JSON
+FVC (UG / PG FORMAT),FULL METAL CROWN,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FVC (UG / PG FORMAT),FULL METAL CROWN,FVC Wax Pattern,Crown Fabrication,No Component Required,Generic,0,DIAS_JSON
+FVC (UG / PG FORMAT),METAL CERAMIC,Secondary Cast,FVC Wax Pattern,No Component Required,Generic,0,DIAS_JSON
+FVC (UG / PG FORMAT),METAL CERAMIC,FVC Wax Pattern,Metal Coping,No Component Required,Generic,0,DIAS_JSON
+FVC (UG / PG FORMAT),METAL CERAMIC,Metal Coping,Bisque Trial,Metal Ceramic Crown,Generic,1300 per unit,DIAS_JSON

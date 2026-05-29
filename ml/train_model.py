@@ -19,7 +19,7 @@ print("=" * 60)
 # STEP 1 — Load Dataset
 # ============================================================
 print("\nStep 1: Loading dataset...")
-df = pd.read_csv("dental_steps.csv")
+df = pd.read_csv("dental_steps.csv", usecols=["procedure","subtype","current_step","next_step"], on_bad_lines='skip')
 print(f"Total rows loaded: {len(df)}")
 print(f"Columns: {list(df.columns)}")
 print(f"\nProcedures found: {df['procedure'].nunique()}")
